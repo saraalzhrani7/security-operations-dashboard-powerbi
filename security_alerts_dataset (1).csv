@@ -1,0 +1,721 @@
+alert_id,date_detected,date_resolved,severity,alert_type,mitre_tactic,detection_source,source_ip,destination_ip,target_system,department,analyst_assigned,status,is_true_positive,resolution_time_hours
+ALT-00001,2026-01-04 12:49:25,2026-01-06 00:43:25,Medium,Unauthorized Access,Initial Access,Email Gateway,10.0.2.142,10.0.9.187,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,35.9
+ALT-00002,2026-01-09 14:13:59,,Low,Brute Force Login,Credential Access,Email Gateway,144.29.182.2,10.0.19.119,File Server,Operations,Sara Alzahrani,In Progress,Yes,
+ALT-00003,2026-01-10 09:53:36,2026-01-10 10:17:00,Medium,DDoS Traffic,Impact,Email Gateway,10.0.7.118,10.0.9.69,Employee Workstation,Operations,Sara Alzahrani,False Positive,No,0.39
+ALT-00004,2026-01-11 12:32:48,2026-01-11 23:11:48,High,Malware Detected,Execution,Proxy Logs,10.0.11.197,10.0.5.140,Employee Workstation,Operations,Nouf Al-Harbi,Escalated,Yes,10.65
+ALT-00005,2026-01-12 15:30:27,2026-01-16 11:17:15,Low,Port Scan,Reconnaissance,Email Gateway,143.62.183.86,10.0.21.79,Employee Workstation,Operations,Faisal Al-Qahtani,Resolved,Yes,91.78
+ALT-00006,2026-01-14 22:12:07,2026-01-15 00:54:43,High,C2 Communication,Command and Control,EDR Agent,10.0.6.244,10.0.15.247,Web Server 01,IT,Omar Al-Dosari,False Positive,No,2.71
+ALT-00007,2026-01-15 16:29:53,2026-01-15 19:20:53,High,Phishing Email,Initial Access,Proxy Logs,10.0.15.178,10.0.10.223,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,2.85
+ALT-00008,2026-01-17 11:49:08,2026-01-17 12:25:44,High,Brute Force Login,Credential Access,Elastic SIEM,10.0.22.60,10.0.16.145,Employee Workstation,Operations,Omar Al-Dosari,False Positive,No,0.61
+ALT-00009,2026-01-18 10:42:08,,High,Malware Detected,Execution,Firewall/IDS,114.127.214.181,10.0.14.48,POS Terminal,Sales,Sara Alzahrani,In Progress,Yes,
+ALT-00010,2026-01-19 02:05:21,2026-01-19 05:47:57,Medium,Unauthorized Access,Initial Access,EDR Agent,58.29.151.108,10.0.12.228,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,3.71
+ALT-00011,2026-01-19 11:21:14,2026-01-21 21:21:14,Low,Port Scan,Reconnaissance,Proxy Logs,28.71.78.251,10.0.30.86,VPN Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,58.0
+ALT-00012,2026-01-21 13:24:58,2026-01-21 15:46:34,Critical,Malware Detected,Execution,Email Gateway,101.138.39.147,10.0.11.32,Email Gateway,IT,Omar Al-Dosari,Resolved,Yes,2.36
+ALT-00013,2026-01-23 12:52:50,2026-01-23 19:46:14,Medium,Malicious Macro,Execution,Email Gateway,177.112.32.206,10.0.6.111,Web Server 01,IT,Sara Alzahrani,Escalated,Yes,6.89
+ALT-00014,2026-01-23 18:07:25,2026-01-23 18:40:25,Critical,C2 Communication,Command and Control,Email Gateway,83.80.255.24,10.0.21.160,Email Gateway,IT,Omar Al-Dosari,False Positive,No,0.55
+ALT-00015,2026-01-25 08:24:26,2026-01-26 08:26:50,Medium,Policy Violation,N/A,Wireshark,184.26.155.29,10.0.8.95,File Server,Operations,Faisal Al-Qahtani,Resolved,Yes,24.04
+ALT-00016,2026-01-28 18:28:51,,Critical,Malware Detected,Execution,Elastic SIEM,10.0.29.148,10.0.13.212,HR Portal,HR,Sara Alzahrani,In Progress,Yes,
+ALT-00017,2026-01-28 22:52:17,2026-01-30 21:13:17,Low,Policy Violation,N/A,Email Gateway,10.0.8.95,10.0.28.151,Executive Laptop,Executive,Faisal Al-Qahtani,Resolved,Yes,46.35
+ALT-00018,2026-01-29 08:05:04,2026-01-29 13:24:52,High,Phishing Email,Initial Access,Email Gateway,10.0.12.117,10.0.20.105,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,5.33
+ALT-00019,2026-01-29 13:39:52,2026-01-29 21:45:52,High,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,41.57.27.63,10.0.30.160,Database Server (SQL),IT,Faisal Al-Qahtani,Resolved,Yes,8.1
+ALT-00020,2026-01-30 11:37:20,2026-01-31 02:47:32,High,Phishing Email,Initial Access,Wireshark,112.55.231.129,10.0.7.244,Email Gateway,IT,Omar Al-Dosari,Resolved,Yes,15.17
+ALT-00021,2026-01-30 18:44:34,2026-01-30 19:18:10,Medium,Port Scan,Reconnaissance,Firewall/IDS,91.79.110.246,10.0.24.88,Executive Laptop,Executive,Sara Alzahrani,False Positive,No,0.56
+ALT-00022,2026-01-31 17:26:03,2026-02-02 23:48:15,Low,Brute Force Login,Credential Access,Wireshark,10.0.1.108,10.0.15.148,Domain Controller,IT,Omar Al-Dosari,Resolved,Yes,54.37
+ALT-00023,2026-02-01 07:39:28,2026-02-01 17:34:04,High,C2 Communication,Command and Control,Proxy Logs,197.203.108.183,10.0.12.183,File Server,Operations,Omar Al-Dosari,Resolved,Yes,9.91
+ALT-00024,2026-02-01 08:08:06,2026-02-02 05:43:30,Low,Unauthorized Access,Initial Access,EDR Agent,114.2.26.67,10.0.28.202,POS Terminal,Sales,Faisal Al-Qahtani,Resolved,Yes,21.59
+ALT-00025,2026-02-01 09:15:04,2026-02-01 17:42:04,Medium,Phishing Email,Initial Access,Wireshark,96.240.210.185,10.0.10.115,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,8.45
+ALT-00026,2026-02-01 09:46:44,2026-02-01 14:25:08,Critical,Malware Detected,Execution,Wireshark,10.0.23.209,10.0.15.113,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,4.64
+ALT-00027,2026-02-02 03:39:55,2026-02-04 06:39:55,Low,DDoS Traffic,Impact,Proxy Logs,198.147.24.238,10.0.12.101,Domain Controller,IT,Lama Al-Ghamdi,Resolved,Yes,51.0
+ALT-00028,2026-02-03 13:53:52,2026-02-05 22:32:16,Low,Policy Violation,N/A,Firewall/IDS,162.200.98.158,10.0.20.102,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,56.64
+ALT-00029,2026-02-03 14:13:14,,High,Data Exfiltration Attempt,Exfiltration,Wireshark,10.0.25.235,10.0.14.107,Employee Workstation,Operations,Omar Al-Dosari,In Progress,Yes,
+ALT-00030,2026-02-04 12:49:28,,Low,Phishing Email,Initial Access,Proxy Logs,88.77.168.232,10.0.12.149,Web Server 01,IT,Sara Alzahrani,In Progress,Yes,
+ALT-00031,2026-02-04 16:19:23,2026-02-06 13:51:11,Medium,Policy Violation,N/A,Elastic SIEM,95.227.71.148,10.0.15.179,File Server,Operations,Faisal Al-Qahtani,Resolved,Yes,45.53
+ALT-00032,2026-02-04 18:23:23,2026-02-04 21:14:23,Low,Port Scan,Reconnaissance,Email Gateway,10.0.24.21,10.0.18.37,Email Gateway,IT,Faisal Al-Qahtani,False Positive,No,2.85
+ALT-00033,2026-02-05 03:06:15,2026-02-06 15:14:39,Medium,Policy Violation,N/A,Firewall/IDS,10.0.13.169,10.0.3.215,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,36.14
+ALT-00034,2026-02-05 14:36:32,2026-02-06 07:10:08,Medium,Port Scan,Reconnaissance,EDR Agent,102.50.250.26,10.0.22.174,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,16.56
+ALT-00035,2026-02-06 12:26:54,2026-02-09 01:55:06,Low,Suspicious PowerShell,Execution,EDR Agent,10.0.2.176,10.0.13.131,Web Server 01,IT,Nouf Al-Harbi,Resolved,Yes,61.47
+ALT-00036,2026-02-06 13:51:30,2026-02-09 02:15:30,Low,Policy Violation,N/A,Email Gateway,10.0.19.191,10.0.26.78,Executive Laptop,Executive,Faisal Al-Qahtani,Resolved,Yes,60.4
+ALT-00037,2026-02-07 13:27:28,2026-02-07 14:55:40,High,Data Exfiltration Attempt,Exfiltration,EDR Agent,87.38.183.231,10.0.2.77,HR Portal,HR,Nouf Al-Harbi,Resolved,Yes,1.47
+ALT-00038,2026-02-07 18:32:37,2026-02-07 21:00:49,Medium,Phishing Email,Initial Access,Elastic SIEM,10.0.3.237,10.0.19.54,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,2.47
+ALT-00039,2026-02-08 05:55:02,2026-02-08 12:41:14,Critical,C2 Communication,Command and Control,Elastic SIEM,154.131.25.94,10.0.7.157,Domain Controller,IT,Sara Alzahrani,Resolved,Yes,6.77
+ALT-00040,2026-02-08 12:04:16,,Medium,Unauthorized Access,Initial Access,Firewall/IDS,50.64.163.221,10.0.4.194,VPN Gateway,IT,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00041,2026-02-10 15:09:03,2026-02-10 16:22:51,Critical,Unauthorized Access,Initial Access,Firewall/IDS,10.0.20.76,10.0.2.123,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,1.23
+ALT-00042,2026-02-10 18:30:59,2026-02-14 01:30:59,Low,Policy Violation,N/A,Proxy Logs,10.0.21.155,10.0.19.227,Web Server 01,IT,Lama Al-Ghamdi,Resolved,Yes,79.0
+ALT-00043,2026-02-11 18:28:50,2026-02-11 21:02:26,High,DDoS Traffic,Impact,Wireshark,10.0.16.184,10.0.24.214,VPN Gateway,IT,Nouf Al-Harbi,Resolved,Yes,2.56
+ALT-00044,2026-02-12 11:59:39,2026-02-12 13:55:27,Critical,Data Exfiltration Attempt,Exfiltration,Wireshark,71.171.65.9,10.0.22.147,HR Portal,HR,Omar Al-Dosari,False Positive,No,1.93
+ALT-00045,2026-02-13 10:25:17,2026-02-13 20:54:41,High,Malicious Macro,Execution,Proxy Logs,184.234.73.68,10.0.4.65,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,10.49
+ALT-00046,2026-02-14 15:29:26,2026-02-16 06:02:26,Medium,Malware Detected,Execution,Firewall/IDS,63.117.44.106,10.0.27.135,Domain Controller,IT,Lama Al-Ghamdi,Resolved,Yes,38.55
+ALT-00047,2026-02-15 10:15:18,2026-02-16 15:16:30,Low,Brute Force Login,Credential Access,Proxy Logs,10.0.6.36,10.0.24.199,VPN Gateway,IT,Nouf Al-Harbi,Resolved,Yes,29.02
+ALT-00048,2026-02-15 13:45:05,,Low,Policy Violation,N/A,Wireshark,176.81.186.96,10.0.29.74,Email Gateway,IT,Omar Al-Dosari,In Progress,Yes,
+ALT-00049,2026-02-15 18:32:47,2026-02-16 02:17:47,Critical,Privilege Escalation,Privilege Escalation,Email Gateway,10.0.28.174,10.0.20.220,Domain Controller,IT,Faisal Al-Qahtani,Resolved,Yes,7.75
+ALT-00050,2026-02-16 17:40:43,,High,Phishing Email,Initial Access,Firewall/IDS,10.0.24.108,10.0.19.154,Executive Laptop,Executive,Sara Alzahrani,In Progress,Yes,
+ALT-00051,2026-02-16 17:54:14,,Low,Policy Violation,N/A,Wireshark,156.129.232.1,10.0.30.111,Finance ERP App,Finance,Sara Alzahrani,In Progress,Yes,
+ALT-00052,2026-02-17 12:50:17,2026-02-17 13:37:05,Critical,Suspicious PowerShell,Execution,Elastic SIEM,10.0.9.21,10.0.20.223,Sales CRM,Sales,Nouf Al-Harbi,Resolved,Yes,0.78
+ALT-00053,2026-02-17 16:06:43,2026-02-17 17:33:43,High,Data Exfiltration Attempt,Exfiltration,Firewall/IDS,10.0.30.154,10.0.21.230,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,1.45
+ALT-00054,2026-02-18 11:29:58,2026-02-21 12:32:22,Low,DDoS Traffic,Impact,Proxy Logs,10.0.3.98,10.0.12.7,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,73.04
+ALT-00055,2026-02-18 11:33:06,2026-02-21 03:58:54,Low,Malicious Macro,Execution,EDR Agent,65.212.54.197,10.0.20.149,Sales CRM,Sales,Faisal Al-Qahtani,Resolved,Yes,64.43
+ALT-00056,2026-02-18 13:34:28,2026-02-18 15:35:40,High,Phishing Email,Initial Access,Proxy Logs,65.228.182.80,10.0.10.211,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,2.02
+ALT-00057,2026-02-19 13:09:49,2026-02-19 13:53:01,High,Unauthorized Access,Initial Access,Proxy Logs,102.119.33.99,10.0.9.156,HR Portal,HR,Sara Alzahrani,False Positive,No,0.72
+ALT-00058,2026-02-19 15:42:05,2026-02-20 01:59:29,Medium,Unauthorized Access,Initial Access,Email Gateway,10.0.30.238,10.0.12.198,File Server,Operations,Omar Al-Dosari,Resolved,Yes,10.29
+ALT-00059,2026-02-20 03:32:49,,Low,Policy Violation,N/A,Elastic SIEM,172.192.78.42,10.0.5.214,Sales CRM,Sales,Nouf Al-Harbi,In Progress,Yes,
+ALT-00060,2026-02-20 13:03:31,,High,Suspicious PowerShell,Execution,Firewall/IDS,49.116.1.12,10.0.27.222,Web Server 01,IT,Sara Alzahrani,In Progress,Yes,
+ALT-00061,2026-02-21 09:17:04,2026-02-21 09:40:28,Critical,Unauthorized Access,Initial Access,EDR Agent,10.0.24.246,10.0.0.172,Domain Controller,IT,Omar Al-Dosari,False Positive,No,0.39
+ALT-00062,2026-02-21 10:03:17,,High,Port Scan,Reconnaissance,Wireshark,10.0.12.214,10.0.0.33,Database Server (SQL),IT,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00063,2026-02-21 14:36:15,2026-02-21 17:56:39,Critical,Privilege Escalation,Privilege Escalation,Elastic SIEM,34.4.87.22,10.0.15.218,File Server,Operations,Sara Alzahrani,Resolved,Yes,3.34
+ALT-00064,2026-02-21 15:39:00,2026-02-25 06:16:48,Low,Policy Violation,N/A,Firewall/IDS,167.140.251.47,10.0.24.236,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,86.63
+ALT-00065,2026-02-25 09:22:35,2026-02-25 19:46:35,High,C2 Communication,Command and Control,Wireshark,10.0.21.57,10.0.14.211,POS Terminal,Sales,Sara Alzahrani,Resolved,Yes,10.4
+ALT-00066,2026-02-25 10:49:37,2026-02-25 15:13:37,High,Privilege Escalation,Privilege Escalation,EDR Agent,202.103.232.24,10.0.8.84,VPN Gateway,IT,Nouf Al-Harbi,Resolved,Yes,4.4
+ALT-00067,2026-02-25 17:27:05,2026-02-26 01:45:05,High,Malicious Macro,Execution,Elastic SIEM,177.146.29.243,10.0.24.211,HR Portal,HR,Lama Al-Ghamdi,Resolved,Yes,8.3
+ALT-00068,2026-02-27 14:29:49,2026-03-01 18:20:13,Low,DDoS Traffic,Impact,Proxy Logs,66.160.5.173,10.0.0.214,POS Terminal,Sales,Lama Al-Ghamdi,Escalated,Yes,51.84
+ALT-00069,2026-02-28 11:20:31,2026-02-28 23:06:43,High,Data Exfiltration Attempt,Exfiltration,Firewall/IDS,129.86.2.81,10.0.7.203,File Server,Operations,Lama Al-Ghamdi,Resolved,Yes,11.77
+ALT-00070,2026-02-28 13:09:00,2026-02-28 15:48:00,Critical,C2 Communication,Command and Control,EDR Agent,195.196.57.126,10.0.5.30,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,2.65
+ALT-00071,2026-02-28 13:54:22,2026-03-01 09:23:46,High,Suspicious PowerShell,Execution,Proxy Logs,10.0.17.77,10.0.26.162,Email Gateway,IT,Omar Al-Dosari,Resolved,Yes,19.49
+ALT-00072,2026-02-28 18:38:51,2026-03-03 11:30:27,Low,Malicious Macro,Execution,Elastic SIEM,10.0.20.89,10.0.0.219,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,64.86
+ALT-00073,2026-03-01 01:31:14,2026-03-01 02:18:38,Medium,Phishing Email,Initial Access,Wireshark,104.192.105.103,10.0.5.213,POS Terminal,Sales,Omar Al-Dosari,False Positive,No,0.79
+ALT-00074,2026-03-02 10:05:04,2026-03-02 13:05:40,Medium,Data Exfiltration Attempt,Exfiltration,EDR Agent,10.0.30.162,10.0.2.55,Domain Controller,IT,Sara Alzahrani,Resolved,Yes,3.01
+ALT-00075,2026-03-02 11:07:48,2026-03-03 18:41:24,Medium,Brute Force Login,Credential Access,Email Gateway,10.0.29.170,10.0.26.179,VPN Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,31.56
+ALT-00076,2026-03-02 12:27:13,2026-03-03 14:21:49,Medium,Policy Violation,N/A,Firewall/IDS,112.147.20.22,10.0.10.128,Employee Workstation,Operations,Sara Alzahrani,Resolved,Yes,25.91
+ALT-00077,2026-03-02 15:11:17,2026-03-04 11:49:41,Medium,Phishing Email,Initial Access,EDR Agent,10.0.13.56,10.0.4.103,Sales CRM,Sales,Nouf Al-Harbi,Resolved,Yes,44.64
+ALT-00078,2026-03-02 15:17:44,2026-03-03 17:54:20,Medium,Suspicious PowerShell,Execution,Elastic SIEM,10.0.3.74,10.0.8.34,HR Portal,HR,Faisal Al-Qahtani,Resolved,Yes,26.61
+ALT-00079,2026-03-02 18:59:02,,Critical,Malware Detected,Execution,Firewall/IDS,22.54.173.219,10.0.22.23,Employee Workstation,Operations,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00080,2026-03-04 08:19:42,2026-03-04 10:27:30,High,Privilege Escalation,Privilege Escalation,Elastic SIEM,10.0.30.90,10.0.16.134,Web Server 01,IT,Sara Alzahrani,False Positive,No,2.13
+ALT-00081,2026-03-04 08:30:22,2026-03-06 07:08:10,Medium,Brute Force Login,Credential Access,EDR Agent,10.0.9.9,10.0.23.210,Web Server 01,IT,Lama Al-Ghamdi,Resolved,Yes,46.63
+ALT-00082,2026-03-04 14:30:19,2026-03-04 15:44:07,Medium,Data Exfiltration Attempt,Exfiltration,Wireshark,10.0.16.224,10.0.13.5,Sales CRM,Sales,Omar Al-Dosari,False Positive,No,1.23
+ALT-00083,2026-03-04 15:26:33,2026-03-04 15:54:45,Low,Policy Violation,N/A,Email Gateway,10.0.18.17,10.0.25.250,Web Server 01,IT,Nouf Al-Harbi,False Positive,No,0.47
+ALT-00084,2026-03-04 17:47:19,2026-03-08 16:24:31,Low,DDoS Traffic,Impact,Wireshark,37.243.188.46,10.0.0.174,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,94.62
+ALT-00085,2026-03-04 18:38:23,2026-03-04 19:55:11,High,Unauthorized Access,Initial Access,Email Gateway,103.29.5.211,10.0.11.58,POS Terminal,Sales,Nouf Al-Harbi,False Positive,No,1.28
+ALT-00086,2026-03-04 20:06:43,2026-03-05 14:50:31,Low,Malware Detected,Execution,Wireshark,138.118.207.162,10.0.5.49,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,18.73
+ALT-00087,2026-03-04 22:11:00,2026-03-05 21:09:12,Low,Policy Violation,N/A,Elastic SIEM,10.0.17.67,10.0.27.194,HR Portal,HR,Sara Alzahrani,Resolved,Yes,22.97
+ALT-00088,2026-03-05 09:47:54,2026-03-06 13:34:42,Medium,C2 Communication,Command and Control,EDR Agent,22.103.144.66,10.0.25.19,VPN Gateway,IT,Sara Alzahrani,Resolved,Yes,27.78
+ALT-00089,2026-03-05 10:06:13,2026-03-05 12:15:13,Low,Policy Violation,N/A,Email Gateway,10.0.30.164,10.0.0.207,HR Portal,HR,Lama Al-Ghamdi,False Positive,No,2.15
+ALT-00090,2026-03-05 10:23:44,2026-03-05 19:26:08,High,Malware Detected,Execution,Email Gateway,157.88.85.126,10.0.9.37,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,9.04
+ALT-00091,2026-03-05 10:44:14,2026-03-05 13:06:26,High,Brute Force Login,Credential Access,Elastic SIEM,10.0.24.125,10.0.24.112,Web Server 01,IT,Omar Al-Dosari,False Positive,No,2.37
+ALT-00092,2026-03-05 18:37:37,2026-03-05 21:59:13,Critical,Suspicious PowerShell,Execution,Email Gateway,10.0.1.224,10.0.27.40,Domain Controller,IT,Sara Alzahrani,Escalated,Yes,3.36
+ALT-00093,2026-03-06 09:52:01,2026-03-06 11:50:49,Low,Privilege Escalation,Privilege Escalation,Wireshark,180.97.44.78,10.0.24.120,Email Gateway,IT,Omar Al-Dosari,False Positive,No,1.98
+ALT-00094,2026-03-06 14:49:49,2026-03-06 17:27:01,High,Phishing Email,Initial Access,Firewall/IDS,10.0.24.108,10.0.11.163,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,2.62
+ALT-00095,2026-03-08 04:04:33,2026-03-08 06:10:33,Critical,Suspicious PowerShell,Execution,Wireshark,125.226.111.23,10.0.28.27,File Server,Operations,Omar Al-Dosari,Resolved,Yes,2.1
+ALT-00096,2026-03-08 16:55:58,2026-03-12 07:52:58,Low,Policy Violation,N/A,Email Gateway,156.60.47.124,10.0.21.35,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,86.95
+ALT-00097,2026-03-08 17:39:17,2026-03-08 20:51:17,Medium,Suspicious PowerShell,Execution,Email Gateway,10.0.24.124,10.0.4.130,Domain Controller,IT,Faisal Al-Qahtani,Resolved,Yes,3.2
+ALT-00098,2026-03-09 13:48:25,2026-03-09 18:27:25,Critical,Unauthorized Access,Initial Access,Email Gateway,10.0.16.117,10.0.24.142,Email Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,4.65
+ALT-00099,2026-03-10 13:35:10,2026-03-10 20:26:46,Critical,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,60.8.249.21,10.0.0.3,Executive Laptop,Executive,Faisal Al-Qahtani,Resolved,Yes,6.86
+ALT-00100,2026-03-10 14:22:27,2026-03-13 01:39:51,Low,Unauthorized Access,Initial Access,Firewall/IDS,92.13.154.53,10.0.16.157,Domain Controller,IT,Sara Alzahrani,Resolved,Yes,59.29
+ALT-00101,2026-03-10 14:36:57,2026-03-10 19:50:45,Critical,Data Exfiltration Attempt,Exfiltration,Wireshark,10.0.20.16,10.0.0.117,POS Terminal,Sales,Sara Alzahrani,Resolved,Yes,5.23
+ALT-00102,2026-03-10 15:15:55,2026-03-10 16:56:07,Medium,Malicious Macro,Execution,Elastic SIEM,10.0.2.239,10.0.24.219,Sales CRM,Sales,Sara Alzahrani,False Positive,No,1.67
+ALT-00103,2026-03-10 16:33:46,2026-03-11 11:07:58,Medium,Suspicious PowerShell,Execution,EDR Agent,130.20.198.62,10.0.6.158,HR Portal,HR,Faisal Al-Qahtani,Resolved,Yes,18.57
+ALT-00104,2026-03-10 16:43:39,2026-03-12 15:22:03,Medium,DDoS Traffic,Impact,Wireshark,104.229.67.53,10.0.20.37,VPN Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,46.64
+ALT-00105,2026-03-11 08:08:31,2026-03-14 10:12:07,Low,Brute Force Login,Credential Access,Firewall/IDS,10.0.10.113,10.0.28.44,VPN Gateway,IT,Nouf Al-Harbi,Resolved,Yes,74.06
+ALT-00106,2026-03-11 09:19:55,2026-03-11 10:10:55,High,Privilege Escalation,Privilege Escalation,Email Gateway,43.219.175.247,10.0.24.78,VPN Gateway,IT,Faisal Al-Qahtani,False Positive,No,0.85
+ALT-00107,2026-03-11 11:47:41,2026-03-13 10:59:41,Medium,Phishing Email,Initial Access,Elastic SIEM,63.28.49.92,10.0.15.47,Executive Laptop,Executive,Faisal Al-Qahtani,Resolved,Yes,47.2
+ALT-00108,2026-03-11 21:27:08,,High,Malicious Macro,Execution,EDR Agent,136.217.230.99,10.0.11.59,VPN Gateway,IT,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00109,2026-03-12 08:00:06,2026-03-12 23:21:42,Low,Port Scan,Reconnaissance,EDR Agent,98.250.48.136,10.0.11.181,Domain Controller,IT,Sara Alzahrani,Escalated,Yes,15.36
+ALT-00110,2026-03-12 09:10:57,2026-03-13 07:51:45,Medium,Malware Detected,Execution,EDR Agent,10.0.9.147,10.0.26.215,Database Server (SQL),IT,Omar Al-Dosari,Resolved,Yes,22.68
+ALT-00111,2026-03-12 10:22:10,2026-03-12 16:54:34,High,Phishing Email,Initial Access,Proxy Logs,39.99.93.196,10.0.3.155,VPN Gateway,IT,Nouf Al-Harbi,Resolved,Yes,6.54
+ALT-00112,2026-03-12 11:33:40,2026-03-12 20:32:28,High,Phishing Email,Initial Access,Email Gateway,25.149.96.17,10.0.0.225,File Server,Operations,Faisal Al-Qahtani,Resolved,Yes,8.98
+ALT-00113,2026-03-12 13:09:24,2026-03-14 11:17:48,Medium,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,10.0.2.84,10.0.4.48,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,46.14
+ALT-00114,2026-03-13 14:26:21,2026-03-16 17:15:33,Low,Policy Violation,N/A,Wireshark,25.194.244.2,10.0.30.92,Email Gateway,IT,Omar Al-Dosari,Resolved,Yes,74.82
+ALT-00115,2026-03-14 08:51:31,2026-03-16 03:20:19,Medium,Suspicious PowerShell,Execution,Elastic SIEM,83.104.53.122,10.0.0.215,Employee Workstation,Operations,Sara Alzahrani,Resolved,Yes,42.48
+ALT-00116,2026-03-14 09:10:00,2026-03-15 15:40:36,Low,Port Scan,Reconnaissance,EDR Agent,10.0.27.118,10.0.2.177,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,30.51
+ALT-00117,2026-03-14 09:38:54,2026-03-14 18:41:54,Medium,Port Scan,Reconnaissance,Email Gateway,10.0.11.79,10.0.9.126,HR Portal,HR,Nouf Al-Harbi,Resolved,Yes,9.05
+ALT-00118,2026-03-14 11:30:25,2026-03-14 14:34:37,High,Unauthorized Access,Initial Access,Wireshark,132.82.71.91,10.0.23.113,VPN Gateway,IT,Lama Al-Ghamdi,Escalated,Yes,3.07
+ALT-00119,2026-03-14 13:49:36,2026-03-14 14:04:00,High,Suspicious PowerShell,Execution,Wireshark,10.0.14.171,10.0.13.126,Email Gateway,IT,Faisal Al-Qahtani,False Positive,No,0.24
+ALT-00120,2026-03-14 14:31:19,,Critical,C2 Communication,Command and Control,Elastic SIEM,10.0.5.46,10.0.26.222,Email Gateway,IT,Nouf Al-Harbi,In Progress,Yes,
+ALT-00121,2026-03-16 14:30:30,2026-03-19 10:15:30,Low,Policy Violation,N/A,Proxy Logs,10.0.0.145,10.0.25.230,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,67.75
+ALT-00122,2026-03-16 18:17:44,2026-03-17 07:33:20,Medium,DDoS Traffic,Impact,Proxy Logs,89.112.166.216,10.0.24.200,Executive Laptop,Executive,Faisal Al-Qahtani,Resolved,Yes,13.26
+ALT-00123,2026-03-17 09:33:32,2026-03-17 18:17:56,Medium,C2 Communication,Command and Control,Firewall/IDS,10.0.19.41,10.0.24.196,HR Portal,HR,Faisal Al-Qahtani,Resolved,Yes,8.74
+ALT-00124,2026-03-17 11:58:23,2026-03-19 06:00:47,Medium,Malware Detected,Execution,EDR Agent,10.0.11.87,10.0.26.37,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,42.04
+ALT-00125,2026-03-18 06:51:12,2026-03-18 13:31:24,Critical,Malware Detected,Execution,Proxy Logs,10.0.19.68,10.0.10.235,Employee Workstation,Operations,Omar Al-Dosari,Resolved,Yes,6.67
+ALT-00126,2026-03-18 08:12:54,2026-03-20 19:22:30,Low,DDoS Traffic,Impact,Firewall/IDS,79.86.18.93,10.0.7.169,Sales CRM,Sales,Faisal Al-Qahtani,Resolved,Yes,59.16
+ALT-00127,2026-03-18 13:00:24,2026-03-18 14:10:36,High,C2 Communication,Command and Control,Proxy Logs,10.0.6.107,10.0.9.198,Employee Workstation,Operations,Nouf Al-Harbi,False Positive,No,1.17
+ALT-00128,2026-03-18 18:42:05,2026-03-18 20:05:29,Medium,Data Exfiltration Attempt,Exfiltration,EDR Agent,10.0.3.23,10.0.3.127,File Server,Operations,Nouf Al-Harbi,False Positive,No,1.39
+ALT-00129,2026-03-18 23:11:21,2026-03-20 19:04:45,Medium,Policy Violation,N/A,Elastic SIEM,10.0.21.37,10.0.12.169,Domain Controller,IT,Faisal Al-Qahtani,Escalated,Yes,43.89
+ALT-00130,2026-03-19 12:36:28,2026-03-19 16:47:52,High,DDoS Traffic,Impact,Elastic SIEM,149.221.79.210,10.0.30.205,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,4.19
+ALT-00131,2026-03-19 16:44:30,2026-03-23 09:29:30,Low,Privilege Escalation,Privilege Escalation,Firewall/IDS,29.106.112.230,10.0.6.117,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,88.75
+ALT-00132,2026-03-19 18:34:13,2026-03-20 01:25:49,High,Data Exfiltration Attempt,Exfiltration,Email Gateway,10.0.0.14,10.0.24.98,File Server,Operations,Sara Alzahrani,Resolved,Yes,6.86
+ALT-00133,2026-03-19 18:37:56,2026-03-21 02:03:44,Medium,Brute Force Login,Credential Access,Proxy Logs,125.122.89.157,10.0.22.11,Database Server (SQL),IT,Faisal Al-Qahtani,Resolved,Yes,31.43
+ALT-00134,2026-03-20 10:12:36,2026-03-21 05:12:00,Low,Data Exfiltration Attempt,Exfiltration,Proxy Logs,10.0.12.177,10.0.19.50,Web Server 01,IT,Nouf Al-Harbi,Resolved,Yes,18.99
+ALT-00135,2026-03-20 12:21:17,2026-03-21 09:56:05,Low,Suspicious PowerShell,Execution,Email Gateway,10.0.13.127,10.0.17.196,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,21.58
+ALT-00136,2026-03-20 12:24:06,,High,Unauthorized Access,Initial Access,Firewall/IDS,33.103.122.193,10.0.19.152,HR Portal,HR,Omar Al-Dosari,In Progress,Yes,
+ALT-00137,2026-03-20 14:44:48,2026-03-20 22:46:36,Medium,Unauthorized Access,Initial Access,Firewall/IDS,78.51.138.206,10.0.7.144,VPN Gateway,IT,Omar Al-Dosari,Resolved,Yes,8.03
+ALT-00138,2026-03-20 16:52:17,,Low,Suspicious PowerShell,Execution,Wireshark,10.0.24.148,10.0.5.108,Executive Laptop,Executive,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00139,2026-03-20 20:03:33,2026-03-20 21:21:33,Low,Phishing Email,Initial Access,Proxy Logs,79.34.77.3,10.0.6.131,Employee Workstation,Operations,Sara Alzahrani,False Positive,No,1.3
+ALT-00140,2026-03-20 21:15:10,2026-03-22 03:52:58,Low,Policy Violation,N/A,Wireshark,10.0.18.128,10.0.11.172,Sales CRM,Sales,Omar Al-Dosari,Resolved,Yes,30.63
+ALT-00141,2026-03-21 12:01:14,2026-03-21 21:47:26,Medium,C2 Communication,Command and Control,Wireshark,10.0.20.204,10.0.1.98,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,9.77
+ALT-00142,2026-03-21 17:31:54,,Critical,Privilege Escalation,Privilege Escalation,Firewall/IDS,28.19.247.181,10.0.11.30,Sales CRM,Sales,Omar Al-Dosari,In Progress,Yes,
+ALT-00143,2026-03-21 18:23:08,2026-03-24 04:40:32,Low,Unauthorized Access,Initial Access,Proxy Logs,10.0.12.252,10.0.13.83,Executive Laptop,Executive,Sara Alzahrani,Resolved,Yes,58.29
+ALT-00144,2026-03-21 19:03:55,2026-03-25 15:44:07,Low,Unauthorized Access,Initial Access,Wireshark,146.209.251.107,10.0.22.217,Database Server (SQL),IT,Faisal Al-Qahtani,Escalated,Yes,92.67
+ALT-00145,2026-03-22 10:55:04,2026-03-22 15:09:28,Low,Brute Force Login,Credential Access,Firewall/IDS,170.250.76.115,10.0.17.125,VPN Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,4.24
+ALT-00146,2026-03-22 15:25:15,2026-03-23 07:42:03,High,Malware Detected,Execution,Elastic SIEM,138.25.127.235,10.0.27.33,Email Gateway,IT,Omar Al-Dosari,Resolved,Yes,16.28
+ALT-00147,2026-03-22 17:48:03,2026-03-24 14:51:39,Medium,Suspicious PowerShell,Execution,Email Gateway,10.0.0.72,10.0.25.54,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,45.06
+ALT-00148,2026-03-22 18:04:11,2026-03-23 21:40:11,Medium,Malware Detected,Execution,EDR Agent,10.0.18.218,10.0.8.3,Employee Workstation,Operations,Sara Alzahrani,Resolved,Yes,27.6
+ALT-00149,2026-03-22 18:57:25,2026-03-23 11:53:49,Low,Port Scan,Reconnaissance,EDR Agent,10.0.7.3,10.0.8.100,Employee Workstation,Operations,Sara Alzahrani,Resolved,Yes,16.94
+ALT-00150,2026-03-23 15:06:15,2026-03-26 23:27:51,Low,Port Scan,Reconnaissance,Firewall/IDS,10.0.0.146,10.0.27.177,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,80.36
+ALT-00151,2026-03-23 16:05:59,2026-03-23 22:59:59,High,Data Exfiltration Attempt,Exfiltration,Proxy Logs,139.240.118.243,10.0.7.38,Employee Workstation,Operations,Omar Al-Dosari,Resolved,Yes,6.9
+ALT-00152,2026-03-24 10:59:28,2026-03-26 00:42:04,Medium,Suspicious PowerShell,Execution,EDR Agent,117.160.201.157,10.0.30.192,HR Portal,HR,Faisal Al-Qahtani,Resolved,Yes,37.71
+ALT-00153,2026-03-24 12:07:14,2026-03-27 13:42:02,Low,Port Scan,Reconnaissance,Proxy Logs,122.182.243.171,10.0.19.245,Finance ERP App,Finance,Lama Al-Ghamdi,Resolved,Yes,73.58
+ALT-00154,2026-03-24 17:57:28,2026-03-25 08:06:28,High,Malware Detected,Execution,Wireshark,51.10.22.27,10.0.17.77,Database Server (SQL),IT,Faisal Al-Qahtani,Resolved,Yes,14.15
+ALT-00155,2026-03-25 13:04:09,2026-03-27 21:35:57,Low,Brute Force Login,Credential Access,EDR Agent,10.0.19.31,10.0.27.202,HR Portal,HR,Lama Al-Ghamdi,Escalated,Yes,56.53
+ALT-00156,2026-03-25 13:17:13,2026-03-27 00:41:49,Medium,Suspicious PowerShell,Execution,Wireshark,10.0.28.124,10.0.2.128,VPN Gateway,IT,Omar Al-Dosari,Resolved,Yes,35.41
+ALT-00157,2026-03-25 17:46:40,,Low,Policy Violation,N/A,Proxy Logs,93.218.162.67,10.0.16.149,Database Server (SQL),IT,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00158,2026-03-25 18:21:10,2026-03-25 21:16:22,High,Suspicious PowerShell,Execution,Wireshark,10.0.27.139,10.0.6.75,VPN Gateway,IT,Omar Al-Dosari,False Positive,No,2.92
+ALT-00159,2026-03-26 12:21:35,2026-03-27 01:15:35,High,Suspicious PowerShell,Execution,Firewall/IDS,24.63.80.113,10.0.14.2,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,12.9
+ALT-00160,2026-03-26 13:13:26,2026-03-29 22:01:26,Low,DDoS Traffic,Impact,Wireshark,10.0.5.173,10.0.25.147,Web Server 01,IT,Faisal Al-Qahtani,Resolved,Yes,80.8
+ALT-00161,2026-03-26 14:17:48,2026-03-26 14:32:48,Medium,Port Scan,Reconnaissance,EDR Agent,77.35.20.194,10.0.0.245,Employee Workstation,Operations,Sara Alzahrani,False Positive,No,0.25
+ALT-00162,2026-03-26 16:17:45,,Low,Suspicious PowerShell,Execution,Elastic SIEM,131.162.163.51,10.0.6.14,File Server,Operations,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00163,2026-03-26 20:52:19,2026-03-28 14:59:31,Low,Policy Violation,N/A,Proxy Logs,10.0.16.118,10.0.21.197,VPN Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,42.12
+ALT-00164,2026-03-28 04:16:19,2026-03-30 05:31:19,Low,DDoS Traffic,Impact,Elastic SIEM,82.14.61.196,10.0.8.128,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,49.25
+ALT-00165,2026-03-28 09:22:04,2026-03-28 19:33:28,Medium,Suspicious PowerShell,Execution,Elastic SIEM,173.92.217.39,10.0.28.172,HR Portal,HR,Sara Alzahrani,Resolved,Yes,10.19
+ALT-00166,2026-03-28 09:50:32,2026-03-29 03:37:20,High,Malware Detected,Execution,EDR Agent,104.184.150.56,10.0.30.194,Sales CRM,Sales,Sara Alzahrani,Resolved,Yes,17.78
+ALT-00167,2026-03-28 12:02:40,,Low,Malware Detected,Execution,Wireshark,10.0.7.212,10.0.6.138,Finance ERP App,Finance,Nouf Al-Harbi,In Progress,Yes,
+ALT-00168,2026-03-28 14:17:53,2026-03-28 22:07:05,High,Unauthorized Access,Initial Access,Firewall/IDS,10.0.17.29,10.0.5.167,POS Terminal,Sales,Omar Al-Dosari,Resolved,Yes,7.82
+ALT-00169,2026-03-28 14:22:19,2026-03-28 21:21:07,Critical,C2 Communication,Command and Control,Wireshark,91.179.204.174,10.0.26.139,File Server,Operations,Omar Al-Dosari,Resolved,Yes,6.98
+ALT-00170,2026-03-28 14:34:28,,Critical,Unauthorized Access,Initial Access,Firewall/IDS,208.115.216.246,10.0.2.236,Domain Controller,IT,Sara Alzahrani,In Progress,Yes,
+ALT-00171,2026-03-28 15:58:42,2026-03-28 22:28:06,Medium,Unauthorized Access,Initial Access,Proxy Logs,10.0.8.187,10.0.25.145,Web Server 01,IT,Lama Al-Ghamdi,Resolved,Yes,6.49
+ALT-00172,2026-03-29 12:32:43,2026-03-30 13:36:55,Medium,Port Scan,Reconnaissance,Firewall/IDS,140.149.231.159,10.0.11.206,Employee Workstation,Operations,Nouf Al-Harbi,Resolved,Yes,25.07
+ALT-00173,2026-03-30 09:13:10,2026-03-31 22:40:46,Medium,Port Scan,Reconnaissance,EDR Agent,41.53.134.159,10.0.4.23,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,37.46
+ALT-00174,2026-03-30 18:37:42,,High,C2 Communication,Command and Control,Wireshark,38.30.84.203,10.0.9.154,Sales CRM,Sales,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00175,2026-03-31 08:52:21,2026-03-31 21:40:21,Low,Policy Violation,N/A,Email Gateway,51.43.31.235,10.0.1.98,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,12.8
+ALT-00176,2026-03-31 10:12:01,2026-04-01 08:15:37,Medium,C2 Communication,Command and Control,EDR Agent,29.103.81.70,10.0.4.9,Finance ERP App,Finance,Omar Al-Dosari,Resolved,Yes,22.06
+ALT-00177,2026-03-31 10:30:24,2026-04-01 08:32:12,Medium,Malicious Macro,Execution,Email Gateway,159.120.88.170,10.0.21.21,POS Terminal,Sales,Omar Al-Dosari,Escalated,Yes,22.03
+ALT-00178,2026-03-31 13:19:37,2026-03-31 13:36:25,High,Privilege Escalation,Privilege Escalation,Proxy Logs,10.0.9.42,10.0.12.177,Finance ERP App,Finance,Nouf Al-Harbi,False Positive,No,0.28
+ALT-00179,2026-03-31 15:13:55,,Low,Port Scan,Reconnaissance,EDR Agent,10.0.25.202,10.0.14.75,Web Server 01,IT,Sara Alzahrani,In Progress,Yes,
+ALT-00180,2026-03-31 15:28:50,2026-04-01 03:31:50,High,Phishing Email,Initial Access,EDR Agent,155.176.217.191,10.0.17.86,Domain Controller,IT,Faisal Al-Qahtani,Resolved,Yes,12.05
+ALT-00181,2026-03-31 16:24:07,2026-03-31 17:07:19,Critical,Brute Force Login,Credential Access,Email Gateway,24.137.51.64,10.0.24.144,Database Server (SQL),IT,Omar Al-Dosari,Resolved,Yes,0.72
+ALT-00182,2026-03-31 17:36:02,2026-04-04 12:24:02,Low,Suspicious PowerShell,Execution,Elastic SIEM,10.0.11.194,10.0.9.247,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,90.8
+ALT-00183,2026-04-01 01:32:14,2026-04-04 07:15:26,Low,Policy Violation,N/A,Wireshark,147.228.161.31,10.0.15.192,VPN Gateway,IT,Sara Alzahrani,Resolved,Yes,77.72
+ALT-00184,2026-04-01 12:54:27,2026-04-02 03:11:15,Medium,Port Scan,Reconnaissance,Proxy Logs,10.0.5.67,10.0.21.155,Employee Workstation,Operations,Faisal Al-Qahtani,Escalated,Yes,14.28
+ALT-00185,2026-04-01 14:00:39,2026-04-01 21:51:39,High,Unauthorized Access,Initial Access,Wireshark,159.10.199.224,10.0.15.13,VPN Gateway,IT,Sara Alzahrani,Resolved,Yes,7.85
+ALT-00186,2026-04-01 17:28:05,2026-04-05 11:22:41,Low,Policy Violation,N/A,Email Gateway,10.0.5.108,10.0.0.222,VPN Gateway,IT,Sara Alzahrani,Resolved,Yes,89.91
+ALT-00187,2026-04-01 18:24:10,2026-04-01 22:09:46,Critical,Malware Detected,Execution,EDR Agent,143.39.184.65,10.0.30.65,Finance ERP App,Finance,Faisal Al-Qahtani,Resolved,Yes,3.76
+ALT-00188,2026-04-02 11:48:53,2026-04-02 13:00:17,Medium,DDoS Traffic,Impact,Email Gateway,10.0.25.227,10.0.24.25,Web Server 01,IT,Nouf Al-Harbi,False Positive,No,1.19
+ALT-00189,2026-04-02 12:04:40,2026-04-03 00:58:40,High,DDoS Traffic,Impact,EDR Agent,10.0.8.65,10.0.3.123,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,12.9
+ALT-00190,2026-04-02 12:05:36,2026-04-02 14:29:36,Low,Port Scan,Reconnaissance,Proxy Logs,10.0.26.232,10.0.22.181,Domain Controller,IT,Sara Alzahrani,False Positive,No,2.4
+ALT-00191,2026-04-02 12:55:08,2026-04-05 17:41:20,Low,Policy Violation,N/A,Wireshark,62.198.191.128,10.0.16.120,Database Server (SQL),IT,Sara Alzahrani,Escalated,Yes,76.77
+ALT-00192,2026-04-02 19:09:15,2026-04-03 01:01:27,High,Malware Detected,Execution,Email Gateway,10.0.19.157,10.0.30.193,Employee Workstation,Operations,Faisal Al-Qahtani,Resolved,Yes,5.87
+ALT-00193,2026-04-03 08:33:59,2026-04-03 19:00:23,Low,Policy Violation,N/A,Proxy Logs,104.160.63.185,10.0.28.78,POS Terminal,Sales,Faisal Al-Qahtani,Resolved,Yes,10.44
+ALT-00194,2026-04-03 08:57:51,2026-04-05 06:26:39,Medium,Data Exfiltration Attempt,Exfiltration,Email Gateway,96.217.128.117,10.0.27.79,File Server,Operations,Faisal Al-Qahtani,Resolved,Yes,45.48
+ALT-00195,2026-04-03 15:02:06,2026-04-03 19:10:30,Critical,Privilege Escalation,Privilege Escalation,Wireshark,10.0.28.62,10.0.23.115,Sales CRM,Sales,Faisal Al-Qahtani,Escalated,Yes,4.14
+ALT-00196,2026-04-03 16:42:56,2026-04-06 01:23:44,Low,Port Scan,Reconnaissance,EDR Agent,56.137.107.239,10.0.23.103,POS Terminal,Sales,Sara Alzahrani,Resolved,Yes,56.68
+ALT-00197,2026-04-03 18:53:10,2026-04-04 07:01:34,High,Phishing Email,Initial Access,Proxy Logs,152.96.216.43,10.0.26.111,Employee Workstation,Operations,Omar Al-Dosari,Resolved,Yes,12.14
+ALT-00198,2026-04-04 02:18:01,2026-04-04 04:22:13,High,Port Scan,Reconnaissance,Wireshark,10.0.13.133,10.0.0.223,Executive Laptop,Executive,Faisal Al-Qahtani,False Positive,No,2.07
+ALT-00199,2026-04-04 09:22:55,2026-04-04 11:02:31,Low,DDoS Traffic,Impact,Email Gateway,92.181.166.173,10.0.16.126,Domain Controller,IT,Lama Al-Ghamdi,False Positive,No,1.66
+ALT-00200,2026-04-04 21:35:11,2026-04-08 12:03:59,Low,DDoS Traffic,Impact,EDR Agent,10.0.9.223,10.0.2.232,POS Terminal,Sales,Sara Alzahrani,Resolved,Yes,86.48
+ALT-00201,2026-04-05 12:58:21,2026-04-05 19:01:57,Critical,Unauthorized Access,Initial Access,Email Gateway,43.110.192.108,10.0.14.89,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,6.06
+ALT-00202,2026-04-05 14:43:47,2026-04-05 21:56:23,Critical,Unauthorized Access,Initial Access,EDR Agent,10.0.30.193,10.0.21.240,Web Server 01,IT,Nouf Al-Harbi,Resolved,Yes,7.21
+ALT-00203,2026-04-05 15:53:54,2026-04-06 07:04:06,High,Malware Detected,Execution,Email Gateway,10.0.22.141,10.0.24.44,File Server,Operations,Sara Alzahrani,Resolved,Yes,15.17
+ALT-00204,2026-04-05 17:25:51,2026-04-06 00:49:51,High,C2 Communication,Command and Control,Proxy Logs,10.0.25.137,10.0.15.111,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,7.4
+ALT-00205,2026-04-06 17:36:50,2026-04-06 17:52:26,Medium,C2 Communication,Command and Control,Email Gateway,192.186.26.29,10.0.12.95,Employee Workstation,Operations,Nouf Al-Harbi,False Positive,No,0.26
+ALT-00206,2026-04-06 21:23:55,,Critical,Malicious Macro,Execution,EDR Agent,201.50.161.125,10.0.27.154,File Server,Operations,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00207,2026-04-07 08:38:06,2026-04-07 22:23:42,High,Malware Detected,Execution,Proxy Logs,10.0.8.41,10.0.14.93,Sales CRM,Sales,Omar Al-Dosari,Resolved,Yes,13.76
+ALT-00208,2026-04-07 09:29:26,2026-04-07 12:00:02,Medium,Port Scan,Reconnaissance,EDR Agent,10.0.20.168,10.0.28.170,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,2.51
+ALT-00209,2026-04-07 10:36:48,2026-04-07 19:46:24,High,Malware Detected,Execution,Wireshark,142.196.2.10,10.0.17.53,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,9.16
+ALT-00210,2026-04-07 13:40:52,2026-04-10 07:19:52,Low,Data Exfiltration Attempt,Exfiltration,Firewall/IDS,104.210.253.74,10.0.21.243,Database Server (SQL),IT,Omar Al-Dosari,Resolved,Yes,65.65
+ALT-00211,2026-04-07 17:03:31,2026-04-09 02:28:07,Medium,Policy Violation,N/A,Firewall/IDS,57.185.243.184,10.0.11.212,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,33.41
+ALT-00212,2026-04-08 11:23:28,2026-04-08 11:30:04,Medium,Suspicious PowerShell,Execution,Email Gateway,102.8.184.224,10.0.1.250,Database Server (SQL),IT,Omar Al-Dosari,False Positive,No,0.11
+ALT-00213,2026-04-08 13:45:18,2026-04-10 02:15:18,Medium,Brute Force Login,Credential Access,Proxy Logs,35.141.64.180,10.0.27.35,Sales CRM,Sales,Sara Alzahrani,Resolved,Yes,36.5
+ALT-00214,2026-04-08 14:15:20,2026-04-09 00:13:32,High,Phishing Email,Initial Access,Elastic SIEM,45.220.94.65,10.0.30.127,Email Gateway,IT,Nouf Al-Harbi,Resolved,Yes,9.97
+ALT-00215,2026-04-08 17:08:32,2026-04-08 22:24:08,Medium,Malicious Macro,Execution,Elastic SIEM,10.0.14.104,10.0.18.107,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,5.26
+ALT-00216,2026-04-08 21:39:07,2026-04-10 11:17:31,Low,Malware Detected,Execution,Firewall/IDS,10.0.19.132,10.0.12.130,VPN Gateway,IT,Nouf Al-Harbi,Resolved,Yes,37.64
+ALT-00217,2026-04-09 12:43:20,2026-04-09 15:35:32,Low,Policy Violation,N/A,Elastic SIEM,186.139.171.70,10.0.8.207,Email Gateway,IT,Lama Al-Ghamdi,False Positive,No,2.87
+ALT-00218,2026-04-09 15:15:51,2026-04-10 12:23:03,Medium,DDoS Traffic,Impact,Elastic SIEM,107.73.160.221,10.0.22.83,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,21.12
+ALT-00219,2026-04-10 09:04:21,2026-04-12 04:22:57,Medium,Malware Detected,Execution,Proxy Logs,10.0.19.254,10.0.19.230,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,43.31
+ALT-00220,2026-04-10 17:23:22,,Critical,Malicious Macro,Execution,EDR Agent,133.71.63.249,10.0.18.126,POS Terminal,Sales,Nouf Al-Harbi,In Progress,Yes,
+ALT-00221,2026-04-11 11:34:46,2026-04-11 14:16:10,Critical,Malware Detected,Execution,EDR Agent,163.177.187.115,10.0.20.185,Domain Controller,IT,Lama Al-Ghamdi,False Positive,No,2.69
+ALT-00222,2026-04-11 14:34:47,2026-04-11 23:51:35,High,Privilege Escalation,Privilege Escalation,Wireshark,10.0.10.173,10.0.21.206,Executive Laptop,Executive,Omar Al-Dosari,Resolved,Yes,9.28
+ALT-00223,2026-04-11 15:48:42,2026-04-11 18:18:06,High,Data Exfiltration Attempt,Exfiltration,Firewall/IDS,86.54.222.137,10.0.0.3,Finance ERP App,Finance,Faisal Al-Qahtani,Resolved,Yes,2.49
+ALT-00224,2026-04-12 08:19:18,2026-04-13 17:54:42,Medium,Data Exfiltration Attempt,Exfiltration,Email Gateway,10.0.28.127,10.0.11.194,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,33.59
+ALT-00225,2026-04-12 10:17:05,2026-04-12 14:51:53,Medium,Policy Violation,N/A,Proxy Logs,10.0.26.192,10.0.17.156,Web Server 01,IT,Faisal Al-Qahtani,Resolved,Yes,4.58
+ALT-00226,2026-04-12 13:49:00,2026-04-12 17:09:24,Medium,Malicious Macro,Execution,EDR Agent,10.0.10.215,10.0.10.238,HR Portal,HR,Lama Al-Ghamdi,Resolved,Yes,3.34
+ALT-00227,2026-04-12 17:02:53,2026-04-13 01:21:29,High,Privilege Escalation,Privilege Escalation,Proxy Logs,199.185.62.137,10.0.27.62,Email Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,8.31
+ALT-00228,2026-04-13 02:50:08,2026-04-14 22:33:56,Low,Phishing Email,Initial Access,Elastic SIEM,10.0.1.145,10.0.1.77,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,43.73
+ALT-00229,2026-04-13 11:26:32,2026-04-13 13:02:32,Low,Suspicious PowerShell,Execution,Proxy Logs,189.244.192.81,10.0.30.46,POS Terminal,Sales,Sara Alzahrani,False Positive,No,1.6
+ALT-00230,2026-04-13 11:38:34,2026-04-13 22:17:34,Medium,Policy Violation,N/A,Proxy Logs,10.0.26.57,10.0.30.36,Employee Workstation,Operations,Sara Alzahrani,Resolved,Yes,10.65
+ALT-00231,2026-04-13 13:50:24,2026-04-14 13:02:24,Medium,Data Exfiltration Attempt,Exfiltration,Wireshark,134.76.166.23,10.0.25.161,Executive Laptop,Executive,Faisal Al-Qahtani,Resolved,Yes,23.2
+ALT-00232,2026-04-14 04:35:54,2026-04-14 17:10:06,Medium,DDoS Traffic,Impact,Elastic SIEM,10.0.8.43,10.0.22.121,Database Server (SQL),IT,Faisal Al-Qahtani,Resolved,Yes,12.57
+ALT-00233,2026-04-14 12:38:41,2026-04-15 11:21:17,Medium,Port Scan,Reconnaissance,Firewall/IDS,10.0.27.7,10.0.4.188,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,22.71
+ALT-00234,2026-04-14 18:13:24,2026-04-15 00:12:48,High,Suspicious PowerShell,Execution,Email Gateway,10.0.30.158,10.0.10.95,HR Portal,HR,Nouf Al-Harbi,Resolved,Yes,5.99
+ALT-00235,2026-04-15 09:14:43,2026-04-16 22:20:43,Medium,Suspicious PowerShell,Execution,Proxy Logs,10.0.16.168,10.0.14.236,Email Gateway,IT,Nouf Al-Harbi,Resolved,Yes,37.1
+ALT-00236,2026-04-15 13:38:58,,Medium,Privilege Escalation,Privilege Escalation,EDR Agent,54.70.211.155,10.0.22.228,Finance ERP App,Finance,Nouf Al-Harbi,In Progress,Yes,
+ALT-00237,2026-04-15 15:34:41,2026-04-17 06:30:29,Medium,Unauthorized Access,Initial Access,Email Gateway,101.104.189.81,10.0.13.13,HR Portal,HR,Omar Al-Dosari,Resolved,Yes,38.93
+ALT-00238,2026-04-15 16:11:25,2026-04-15 20:34:49,Critical,Privilege Escalation,Privilege Escalation,Email Gateway,202.63.106.248,10.0.21.231,Sales CRM,Sales,Lama Al-Ghamdi,Resolved,Yes,4.39
+ALT-00239,2026-04-16 00:13:59,,Low,C2 Communication,Command and Control,Proxy Logs,200.104.203.235,10.0.7.143,Employee Workstation,Operations,Omar Al-Dosari,In Progress,Yes,
+ALT-00240,2026-04-16 03:33:49,2026-04-16 04:16:25,Low,DDoS Traffic,Impact,Email Gateway,10.0.9.72,10.0.17.83,Email Gateway,IT,Nouf Al-Harbi,False Positive,No,0.71
+ALT-00241,2026-04-16 08:22:56,2026-04-16 10:21:44,Critical,Privilege Escalation,Privilege Escalation,Elastic SIEM,59.210.63.234,10.0.15.3,HR Portal,HR,Sara Alzahrani,Resolved,Yes,1.98
+ALT-00242,2026-04-16 10:02:09,2026-04-17 14:22:33,Medium,Unauthorized Access,Initial Access,Email Gateway,10.0.25.183,10.0.10.136,File Server,Operations,Nouf Al-Harbi,Resolved,Yes,28.34
+ALT-00243,2026-04-16 12:11:37,2026-04-16 13:12:13,Critical,Brute Force Login,Credential Access,EDR Agent,150.59.197.231,10.0.18.50,Executive Laptop,Executive,Nouf Al-Harbi,False Positive,No,1.01
+ALT-00244,2026-04-16 15:38:45,2026-04-18 09:39:57,Medium,Port Scan,Reconnaissance,Firewall/IDS,10.0.13.72,10.0.20.252,Database Server (SQL),IT,Omar Al-Dosari,Resolved,Yes,42.02
+ALT-00245,2026-04-16 18:58:33,2026-04-17 11:11:09,Medium,Malicious Macro,Execution,Email Gateway,107.248.98.58,10.0.4.41,VPN Gateway,IT,Nouf Al-Harbi,Resolved,Yes,16.21
+ALT-00246,2026-04-16 19:17:56,2026-04-17 03:01:08,Critical,Privilege Escalation,Privilege Escalation,Wireshark,10.0.12.178,10.0.27.124,HR Portal,HR,Sara Alzahrani,Resolved,Yes,7.72
+ALT-00247,2026-04-17 20:03:03,2026-04-18 08:45:03,Medium,Unauthorized Access,Initial Access,Email Gateway,185.177.224.188,10.0.6.7,POS Terminal,Sales,Sara Alzahrani,Resolved,Yes,12.7
+ALT-00248,2026-04-17 23:43:25,2026-04-18 16:36:49,High,Unauthorized Access,Initial Access,Email Gateway,31.88.171.17,10.0.3.72,File Server,Operations,Lama Al-Ghamdi,Resolved,Yes,16.89
+ALT-00249,2026-04-18 08:01:56,,Low,Policy Violation,N/A,Firewall/IDS,10.0.1.217,10.0.11.68,Domain Controller,IT,Omar Al-Dosari,In Progress,Yes,
+ALT-00250,2026-04-18 08:33:37,2026-04-19 12:17:25,Medium,DDoS Traffic,Impact,Wireshark,10.0.11.52,10.0.6.165,Email Gateway,IT,Lama Al-Ghamdi,Escalated,Yes,27.73
+ALT-00251,2026-04-18 13:03:42,2026-04-18 18:43:18,Critical,C2 Communication,Command and Control,Firewall/IDS,49.172.86.6,10.0.17.85,File Server,Operations,Lama Al-Ghamdi,Resolved,Yes,5.66
+ALT-00252,2026-04-18 14:09:53,2026-04-18 14:43:29,Low,Policy Violation,N/A,Elastic SIEM,146.84.38.193,10.0.15.84,Executive Laptop,Executive,Sara Alzahrani,False Positive,No,0.56
+ALT-00253,2026-04-18 16:24:29,2026-04-22 03:09:29,Low,Unauthorized Access,Initial Access,Wireshark,101.242.195.99,10.0.21.204,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,82.75
+ALT-00254,2026-04-19 00:21:00,2026-04-20 02:43:12,Medium,DDoS Traffic,Impact,Proxy Logs,10.0.15.248,10.0.1.250,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,26.37
+ALT-00255,2026-04-19 12:16:14,,Low,Malicious Macro,Execution,Elastic SIEM,69.110.247.71,10.0.23.152,HR Portal,HR,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00256,2026-04-19 16:48:21,2026-04-22 03:32:09,Low,Malicious Macro,Execution,EDR Agent,117.145.223.163,10.0.9.181,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,58.73
+ALT-00257,2026-04-19 17:26:17,2026-04-19 20:46:41,High,Brute Force Login,Credential Access,Email Gateway,165.177.147.29,10.0.0.129,Executive Laptop,Executive,Nouf Al-Harbi,Escalated,Yes,3.34
+ALT-00258,2026-04-19 22:36:06,2026-04-21 16:55:54,Medium,Port Scan,Reconnaissance,Wireshark,68.2.3.148,10.0.16.32,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,42.33
+ALT-00259,2026-04-20 11:33:26,2026-04-22 05:37:02,Medium,Suspicious PowerShell,Execution,Wireshark,81.254.73.60,10.0.14.165,Web Server 01,IT,Faisal Al-Qahtani,Resolved,Yes,42.06
+ALT-00260,2026-04-20 14:55:58,2026-04-20 19:45:46,Critical,Privilege Escalation,Privilege Escalation,Email Gateway,10.0.21.125,10.0.7.218,Finance ERP App,Finance,Nouf Al-Harbi,Resolved,Yes,4.83
+ALT-00261,2026-04-20 15:24:10,2026-04-24 01:40:22,Low,Unauthorized Access,Initial Access,Proxy Logs,94.153.247.76,10.0.8.56,HR Portal,HR,Faisal Al-Qahtani,Escalated,Yes,82.27
+ALT-00262,2026-04-20 18:27:56,2026-04-21 07:57:20,High,Malicious Macro,Execution,Email Gateway,173.226.180.232,10.0.10.142,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,13.49
+ALT-00263,2026-04-20 18:56:53,2026-04-22 12:47:17,Low,Privilege Escalation,Privilege Escalation,EDR Agent,10.0.8.169,10.0.10.5,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,41.84
+ALT-00264,2026-04-21 09:42:00,2026-04-21 10:51:00,Medium,DDoS Traffic,Impact,Firewall/IDS,155.190.121.167,10.0.8.55,Web Server 01,IT,Nouf Al-Harbi,False Positive,No,1.15
+ALT-00265,2026-04-21 14:00:46,2026-04-25 03:55:22,Low,Phishing Email,Initial Access,Elastic SIEM,10.0.7.56,10.0.27.82,Executive Laptop,Executive,Lama Al-Ghamdi,Resolved,Yes,85.91
+ALT-00266,2026-04-21 17:03:22,2026-04-21 19:44:10,Low,Unauthorized Access,Initial Access,EDR Agent,10.0.19.33,10.0.27.137,Email Gateway,IT,Omar Al-Dosari,False Positive,No,2.68
+ALT-00267,2026-04-21 18:25:37,2026-04-21 19:47:49,Medium,Malicious Macro,Execution,Wireshark,144.162.89.182,10.0.30.145,HR Portal,HR,Faisal Al-Qahtani,False Positive,No,1.37
+ALT-00268,2026-04-22 12:22:22,2026-04-22 13:45:46,Low,Brute Force Login,Credential Access,Elastic SIEM,133.147.83.207,10.0.23.250,Sales CRM,Sales,Faisal Al-Qahtani,False Positive,No,1.39
+ALT-00269,2026-04-22 12:47:39,2026-04-22 14:29:03,High,C2 Communication,Command and Control,EDR Agent,58.3.209.7,10.0.7.140,Executive Laptop,Executive,Faisal Al-Qahtani,False Positive,No,1.69
+ALT-00270,2026-04-22 14:53:56,2026-04-22 17:37:44,High,Suspicious PowerShell,Execution,Email Gateway,70.134.86.13,10.0.12.160,Email Gateway,IT,Lama Al-Ghamdi,False Positive,No,2.73
+ALT-00271,2026-04-22 15:01:39,2026-04-22 16:28:39,Medium,Policy Violation,N/A,Wireshark,186.209.59.36,10.0.1.244,Executive Laptop,Executive,Sara Alzahrani,False Positive,No,1.45
+ALT-00272,2026-04-22 15:56:24,2026-04-22 18:23:24,Critical,Data Exfiltration Attempt,Exfiltration,EDR Agent,131.218.47.11,10.0.16.89,Executive Laptop,Executive,Sara Alzahrani,False Positive,No,2.45
+ALT-00273,2026-04-23 14:07:15,2026-04-23 16:16:15,Critical,C2 Communication,Command and Control,Email Gateway,10.0.20.17,10.0.7.19,Email Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,2.15
+ALT-00274,2026-04-23 17:30:37,2026-04-27 14:36:37,Low,Port Scan,Reconnaissance,EDR Agent,157.43.55.197,10.0.7.170,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,93.1
+ALT-00275,2026-04-24 11:25:02,2026-04-24 12:52:02,High,Phishing Email,Initial Access,Wireshark,41.124.224.36,10.0.15.212,POS Terminal,Sales,Nouf Al-Harbi,False Positive,No,1.45
+ALT-00276,2026-04-24 11:55:57,2026-04-24 21:15:45,Medium,Malware Detected,Execution,Proxy Logs,139.255.157.128,10.0.0.25,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,9.33
+ALT-00277,2026-04-24 13:13:52,2026-04-24 15:13:52,Low,Suspicious PowerShell,Execution,Firewall/IDS,47.66.112.235,10.0.11.100,Sales CRM,Sales,Nouf Al-Harbi,False Positive,No,2.0
+ALT-00278,2026-04-24 16:16:35,2026-04-24 18:36:23,Medium,Phishing Email,Initial Access,Proxy Logs,10.0.9.113,10.0.5.118,Employee Workstation,Operations,Lama Al-Ghamdi,False Positive,No,2.33
+ALT-00279,2026-04-24 21:23:08,2026-04-25 16:03:56,High,Policy Violation,N/A,Firewall/IDS,53.45.162.182,10.0.16.112,Web Server 01,IT,Faisal Al-Qahtani,Resolved,Yes,18.68
+ALT-00280,2026-04-25 06:08:55,2026-04-25 18:04:43,High,C2 Communication,Command and Control,Proxy Logs,10.0.6.130,10.0.22.177,POS Terminal,Sales,Omar Al-Dosari,Resolved,Yes,11.93
+ALT-00281,2026-04-25 09:40:54,2026-04-25 21:12:42,High,Privilege Escalation,Privilege Escalation,EDR Agent,10.0.15.104,10.0.15.133,VPN Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,11.53
+ALT-00282,2026-04-25 18:38:03,2026-04-26 14:24:51,Medium,DDoS Traffic,Impact,Firewall/IDS,10.0.27.170,10.0.30.234,Employee Workstation,Operations,Sara Alzahrani,Resolved,Yes,19.78
+ALT-00283,2026-04-25 20:19:31,2026-04-27 07:23:43,Low,Policy Violation,N/A,Elastic SIEM,123.60.108.207,10.0.20.172,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,35.07
+ALT-00284,2026-04-26 11:45:21,2026-04-30 01:47:45,Low,Malicious Macro,Execution,Proxy Logs,170.68.255.2,10.0.16.190,Email Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,86.04
+ALT-00285,2026-04-26 14:46:22,,Medium,Malware Detected,Execution,Firewall/IDS,148.76.12.151,10.0.25.99,Employee Workstation,Operations,Omar Al-Dosari,In Progress,Yes,
+ALT-00286,2026-04-26 18:15:54,2026-04-27 22:18:54,Medium,Suspicious PowerShell,Execution,Wireshark,57.247.183.11,10.0.7.196,Sales CRM,Sales,Omar Al-Dosari,Resolved,Yes,28.05
+ALT-00287,2026-04-26 18:30:29,2026-04-26 19:29:17,High,Privilege Escalation,Privilege Escalation,Proxy Logs,177.184.202.206,10.0.9.24,File Server,Operations,Lama Al-Ghamdi,False Positive,No,0.98
+ALT-00288,2026-04-27 08:29:05,2026-04-27 09:30:17,High,Unauthorized Access,Initial Access,EDR Agent,138.211.27.49,10.0.16.94,Employee Workstation,Operations,Lama Al-Ghamdi,Escalated,Yes,1.02
+ALT-00289,2026-04-27 12:09:49,2026-04-27 19:44:01,Critical,Data Exfiltration Attempt,Exfiltration,EDR Agent,10.0.23.15,10.0.26.19,Finance ERP App,Finance,Omar Al-Dosari,Resolved,Yes,7.57
+ALT-00290,2026-04-27 13:29:31,2026-04-27 15:36:43,Medium,Unauthorized Access,Initial Access,Elastic SIEM,156.203.111.248,10.0.13.213,POS Terminal,Sales,Omar Al-Dosari,False Positive,No,2.12
+ALT-00291,2026-04-27 13:31:39,2026-04-29 12:01:03,Medium,Phishing Email,Initial Access,EDR Agent,10.0.11.242,10.0.19.28,POS Terminal,Sales,Omar Al-Dosari,Escalated,Yes,46.49
+ALT-00292,2026-04-27 14:22:05,2026-04-27 20:43:41,Critical,Unauthorized Access,Initial Access,Wireshark,70.11.42.138,10.0.27.116,File Server,Operations,Lama Al-Ghamdi,Resolved,Yes,6.36
+ALT-00293,2026-04-27 15:58:08,2026-04-27 16:18:32,Medium,Suspicious PowerShell,Execution,Email Gateway,138.93.25.67,10.0.12.85,VPN Gateway,IT,Lama Al-Ghamdi,False Positive,No,0.34
+ALT-00294,2026-04-27 16:56:36,2026-04-27 18:54:12,High,Phishing Email,Initial Access,Elastic SIEM,10.0.6.72,10.0.11.212,Domain Controller,IT,Faisal Al-Qahtani,Resolved,Yes,1.96
+ALT-00295,2026-04-27 18:05:23,2026-04-27 19:01:47,Low,Policy Violation,N/A,Elastic SIEM,10.0.17.12,10.0.30.100,HR Portal,HR,Omar Al-Dosari,False Positive,No,0.94
+ALT-00296,2026-04-28 05:06:13,2026-04-28 07:57:49,High,Malware Detected,Execution,Email Gateway,202.58.213.118,10.0.29.21,Domain Controller,IT,Lama Al-Ghamdi,False Positive,No,2.86
+ALT-00297,2026-04-28 14:56:08,2026-04-28 19:37:32,Critical,Data Exfiltration Attempt,Exfiltration,Firewall/IDS,87.255.216.113,10.0.22.240,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,4.69
+ALT-00298,2026-04-28 17:00:15,2026-04-29 01:49:27,Medium,Policy Violation,N/A,Email Gateway,29.74.16.171,10.0.18.216,File Server,Operations,Faisal Al-Qahtani,Resolved,Yes,8.82
+ALT-00299,2026-04-29 13:20:35,,High,DDoS Traffic,Impact,Email Gateway,10.0.6.29,10.0.11.84,Domain Controller,IT,Omar Al-Dosari,In Progress,Yes,
+ALT-00300,2026-04-29 14:23:40,,Medium,Data Exfiltration Attempt,Exfiltration,Wireshark,10.0.25.237,10.0.17.200,VPN Gateway,IT,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00301,2026-04-29 16:29:43,2026-04-29 18:16:31,Low,Brute Force Login,Credential Access,Firewall/IDS,10.0.11.181,10.0.2.140,VPN Gateway,IT,Sara Alzahrani,False Positive,No,1.78
+ALT-00302,2026-04-29 21:20:35,2026-04-30 04:17:35,Critical,Phishing Email,Initial Access,Wireshark,77.188.100.199,10.0.23.248,Finance ERP App,Finance,Lama Al-Ghamdi,Escalated,Yes,6.95
+ALT-00303,2026-04-30 09:06:35,,Critical,Phishing Email,Initial Access,EDR Agent,173.23.2.65,10.0.16.160,Domain Controller,IT,Nouf Al-Harbi,In Progress,Yes,
+ALT-00304,2026-04-30 13:09:43,2026-04-30 19:12:07,Critical,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,162.30.168.172,10.0.3.107,Employee Workstation,Operations,Omar Al-Dosari,Resolved,Yes,6.04
+ALT-00305,2026-04-30 13:29:16,2026-04-30 16:25:40,High,C2 Communication,Command and Control,Email Gateway,189.191.144.77,10.0.21.29,File Server,Operations,Lama Al-Ghamdi,Resolved,Yes,2.94
+ALT-00306,2026-04-30 13:39:06,2026-05-01 20:45:06,Medium,Suspicious PowerShell,Execution,Email Gateway,10.0.5.229,10.0.1.247,Domain Controller,IT,Nouf Al-Harbi,Resolved,Yes,31.1
+ALT-00307,2026-04-30 17:42:45,2026-04-30 22:16:57,Critical,Data Exfiltration Attempt,Exfiltration,Wireshark,34.25.244.129,10.0.29.220,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,4.57
+ALT-00308,2026-05-01 09:20:21,2026-05-02 08:14:57,Medium,Suspicious PowerShell,Execution,Proxy Logs,140.74.109.82,10.0.18.10,POS Terminal,Sales,Omar Al-Dosari,Resolved,Yes,22.91
+ALT-00309,2026-05-01 09:23:10,2026-05-02 04:01:34,High,Suspicious PowerShell,Execution,Email Gateway,146.60.114.183,10.0.6.50,POS Terminal,Sales,Omar Al-Dosari,Escalated,Yes,18.64
+ALT-00310,2026-05-01 10:51:47,2026-05-02 06:46:59,High,Malware Detected,Execution,Wireshark,152.161.249.77,10.0.8.145,Email Gateway,IT,Omar Al-Dosari,Resolved,Yes,19.92
+ALT-00311,2026-05-01 13:57:59,2026-05-01 15:05:47,Low,Phishing Email,Initial Access,Proxy Logs,124.79.121.222,10.0.5.251,Domain Controller,IT,Faisal Al-Qahtani,False Positive,No,1.13
+ALT-00312,2026-05-01 18:07:34,2026-05-03 11:08:46,Medium,Phishing Email,Initial Access,Elastic SIEM,10.0.16.29,10.0.9.203,Executive Laptop,Executive,Lama Al-Ghamdi,Resolved,Yes,41.02
+ALT-00313,2026-05-01 18:20:29,2026-05-02 13:34:53,High,Data Exfiltration Attempt,Exfiltration,Email Gateway,188.43.145.132,10.0.21.164,Domain Controller,IT,Omar Al-Dosari,Escalated,Yes,19.24
+ALT-00314,2026-05-01 18:54:06,2026-05-02 03:10:54,Low,Policy Violation,N/A,Wireshark,10.0.29.73,10.0.28.141,Domain Controller,IT,Lama Al-Ghamdi,Resolved,Yes,8.28
+ALT-00315,2026-05-02 07:52:28,2026-05-03 09:33:52,Low,Unauthorized Access,Initial Access,Elastic SIEM,115.114.14.82,10.0.29.27,VPN Gateway,IT,Omar Al-Dosari,Resolved,Yes,25.69
+ALT-00316,2026-05-02 15:02:28,2026-05-06 00:51:40,Low,Unauthorized Access,Initial Access,EDR Agent,51.178.47.53,10.0.27.74,Sales CRM,Sales,Omar Al-Dosari,Resolved,Yes,81.82
+ALT-00317,2026-05-02 15:32:18,2026-05-06 02:28:06,Low,Brute Force Login,Credential Access,Proxy Logs,124.160.46.163,10.0.2.21,Sales CRM,Sales,Faisal Al-Qahtani,Resolved,Yes,82.93
+ALT-00318,2026-05-03 08:15:47,2026-05-03 10:36:47,Medium,Phishing Email,Initial Access,Email Gateway,10.0.9.61,10.0.26.236,Domain Controller,IT,Faisal Al-Qahtani,False Positive,No,2.35
+ALT-00319,2026-05-03 17:01:50,2026-05-04 08:51:38,High,C2 Communication,Command and Control,Wireshark,146.57.58.69,10.0.24.141,Finance ERP App,Finance,Lama Al-Ghamdi,Resolved,Yes,15.83
+ALT-00320,2026-05-04 15:10:14,2026-05-04 16:02:26,Low,Port Scan,Reconnaissance,Wireshark,107.232.35.59,10.0.12.100,Executive Laptop,Executive,Lama Al-Ghamdi,False Positive,No,0.87
+ALT-00321,2026-05-04 18:42:59,2026-05-07 01:27:59,Low,Suspicious PowerShell,Execution,EDR Agent,10.0.16.186,10.0.8.139,File Server,Operations,Sara Alzahrani,Resolved,Yes,54.75
+ALT-00322,2026-05-04 21:02:39,2026-05-05 03:56:39,Critical,DDoS Traffic,Impact,Proxy Logs,10.0.5.147,10.0.12.220,Domain Controller,IT,Lama Al-Ghamdi,Resolved,Yes,6.9
+ALT-00323,2026-05-05 03:04:34,,High,C2 Communication,Command and Control,Firewall/IDS,10.0.5.114,10.0.26.141,Web Server 01,IT,Sara Alzahrani,In Progress,Yes,
+ALT-00324,2026-05-05 10:28:04,,Low,Port Scan,Reconnaissance,Email Gateway,137.236.20.189,10.0.2.75,Domain Controller,IT,Nouf Al-Harbi,In Progress,Yes,
+ALT-00325,2026-05-05 11:59:56,2026-05-07 09:04:08,Medium,Privilege Escalation,Privilege Escalation,Proxy Logs,81.105.34.26,10.0.19.10,Email Gateway,IT,Omar Al-Dosari,Resolved,Yes,45.07
+ALT-00326,2026-05-05 14:06:08,2026-05-07 09:27:08,Low,Policy Violation,N/A,Email Gateway,125.236.14.234,10.0.17.8,HR Portal,HR,Nouf Al-Harbi,Resolved,Yes,43.35
+ALT-00327,2026-05-05 15:33:40,2026-05-06 09:45:04,Medium,Unauthorized Access,Initial Access,EDR Agent,64.152.43.173,10.0.4.82,Executive Laptop,Executive,Lama Al-Ghamdi,Resolved,Yes,18.19
+ALT-00328,2026-05-05 16:22:43,2026-05-06 11:34:07,High,Privilege Escalation,Privilege Escalation,Firewall/IDS,10.0.9.59,10.0.30.251,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,19.19
+ALT-00329,2026-05-05 21:33:35,2026-05-07 17:16:47,Medium,Suspicious PowerShell,Execution,Email Gateway,60.243.230.67,10.0.24.65,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,43.72
+ALT-00330,2026-05-06 09:41:10,2026-05-06 15:17:10,Critical,Phishing Email,Initial Access,Firewall/IDS,181.108.144.12,10.0.5.191,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,5.6
+ALT-00331,2026-05-06 09:43:01,,High,C2 Communication,Command and Control,EDR Agent,161.179.176.42,10.0.26.230,Executive Laptop,Executive,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00332,2026-05-06 10:55:02,2026-05-06 11:17:50,Medium,Brute Force Login,Credential Access,Firewall/IDS,31.4.70.170,10.0.20.45,File Server,Operations,Omar Al-Dosari,False Positive,No,0.38
+ALT-00333,2026-05-06 10:56:53,2026-05-09 22:49:41,Low,Policy Violation,N/A,Wireshark,152.78.155.43,10.0.5.84,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,83.88
+ALT-00334,2026-05-06 11:00:00,,Low,Policy Violation,N/A,EDR Agent,210.191.196.126,10.0.9.166,HR Portal,HR,Omar Al-Dosari,In Progress,Yes,
+ALT-00335,2026-05-06 12:36:03,2026-05-06 15:02:27,Medium,Malware Detected,Execution,Elastic SIEM,170.116.31.216,10.0.12.211,File Server,Operations,Sara Alzahrani,False Positive,No,2.44
+ALT-00336,2026-05-06 13:11:41,2026-05-08 00:00:17,Low,Policy Violation,N/A,Proxy Logs,186.244.107.193,10.0.23.196,Sales CRM,Sales,Faisal Al-Qahtani,Resolved,Yes,34.81
+ALT-00337,2026-05-06 18:52:13,2026-05-07 09:14:25,High,C2 Communication,Command and Control,Elastic SIEM,10.0.18.30,10.0.1.214,Executive Laptop,Executive,Lama Al-Ghamdi,Resolved,Yes,14.37
+ALT-00338,2026-05-07 01:18:10,,High,Malware Detected,Execution,Proxy Logs,10.0.6.208,10.0.21.169,Employee Workstation,Operations,Sara Alzahrani,In Progress,Yes,
+ALT-00339,2026-05-07 09:03:58,2026-05-09 02:18:58,Medium,Unauthorized Access,Initial Access,Firewall/IDS,127.124.107.212,10.0.7.16,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,41.25
+ALT-00340,2026-05-07 09:54:45,,Medium,Malware Detected,Execution,Email Gateway,54.198.124.66,10.0.6.86,Email Gateway,IT,Omar Al-Dosari,In Progress,Yes,
+ALT-00341,2026-05-07 17:42:09,2026-05-07 20:24:45,Low,Suspicious PowerShell,Execution,Firewall/IDS,10.0.17.31,10.0.9.8,Database Server (SQL),IT,Sara Alzahrani,False Positive,No,2.71
+ALT-00342,2026-05-07 18:22:28,2026-05-08 03:41:40,High,Privilege Escalation,Privilege Escalation,Firewall/IDS,170.173.239.34,10.0.28.77,Web Server 01,IT,Faisal Al-Qahtani,Resolved,Yes,9.32
+ALT-00343,2026-05-08 11:39:09,2026-05-09 07:32:33,High,Privilege Escalation,Privilege Escalation,Firewall/IDS,10.0.26.111,10.0.6.123,Domain Controller,IT,Sara Alzahrani,Escalated,Yes,19.89
+ALT-00344,2026-05-08 12:40:20,2026-05-08 23:30:08,High,Brute Force Login,Credential Access,Proxy Logs,10.0.1.208,10.0.27.207,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,10.83
+ALT-00345,2026-05-08 14:54:05,2026-05-09 14:13:53,Medium,Brute Force Login,Credential Access,Email Gateway,116.246.36.86,10.0.4.185,Web Server 01,IT,Faisal Al-Qahtani,Resolved,Yes,23.33
+ALT-00346,2026-05-08 16:00:10,2026-05-08 22:07:22,Low,Policy Violation,N/A,Wireshark,59.110.186.30,10.0.28.57,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,6.12
+ALT-00347,2026-05-08 17:17:20,2026-05-09 16:40:08,Medium,C2 Communication,Command and Control,Firewall/IDS,117.172.14.127,10.0.27.85,Employee Workstation,Operations,Omar Al-Dosari,Resolved,Yes,23.38
+ALT-00348,2026-05-08 18:10:38,,Medium,Port Scan,Reconnaissance,Firewall/IDS,161.135.144.77,10.0.7.26,Employee Workstation,Operations,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00349,2026-05-09 09:28:36,2026-05-09 11:25:00,Critical,C2 Communication,Command and Control,Proxy Logs,124.225.55.223,10.0.20.44,Email Gateway,IT,Faisal Al-Qahtani,Escalated,Yes,1.94
+ALT-00350,2026-05-09 12:02:44,2026-05-10 02:04:32,High,Unauthorized Access,Initial Access,Wireshark,185.183.31.102,10.0.8.50,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,14.03
+ALT-00351,2026-05-09 13:14:02,,High,DDoS Traffic,Impact,EDR Agent,30.165.52.181,10.0.30.135,HR Portal,HR,Omar Al-Dosari,In Progress,Yes,
+ALT-00352,2026-05-09 13:51:55,2026-05-10 22:48:19,Low,Policy Violation,N/A,EDR Agent,10.0.14.11,10.0.1.47,Email Gateway,IT,Sara Alzahrani,Resolved,Yes,32.94
+ALT-00353,2026-05-09 15:33:42,2026-05-09 18:29:30,High,DDoS Traffic,Impact,EDR Agent,63.33.186.250,10.0.6.88,Web Server 01,IT,Omar Al-Dosari,False Positive,No,2.93
+ALT-00354,2026-05-09 18:30:53,2026-05-09 22:16:29,Critical,Data Exfiltration Attempt,Exfiltration,EDR Agent,10.0.29.153,10.0.30.40,POS Terminal,Sales,Faisal Al-Qahtani,Resolved,Yes,3.76
+ALT-00355,2026-05-10 10:24:38,2026-05-10 15:55:50,Medium,DDoS Traffic,Impact,Email Gateway,146.238.103.76,10.0.21.129,Finance ERP App,Finance,Lama Al-Ghamdi,Resolved,Yes,5.52
+ALT-00356,2026-05-10 12:53:33,2026-05-10 23:19:21,High,C2 Communication,Command and Control,Firewall/IDS,10.0.29.125,10.0.10.62,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,10.43
+ALT-00357,2026-05-10 14:23:13,,Critical,Privilege Escalation,Privilege Escalation,Proxy Logs,193.230.89.68,10.0.29.175,VPN Gateway,IT,Sara Alzahrani,In Progress,Yes,
+ALT-00358,2026-05-10 17:18:09,2026-05-11 03:51:09,High,Privilege Escalation,Privilege Escalation,Elastic SIEM,90.244.110.127,10.0.9.182,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,10.55
+ALT-00359,2026-05-11 05:14:51,2026-05-14 08:24:27,Low,Policy Violation,N/A,Elastic SIEM,10.0.2.143,10.0.14.4,VPN Gateway,IT,Omar Al-Dosari,Escalated,Yes,75.16
+ALT-00360,2026-05-11 08:28:17,2026-05-11 13:04:17,High,Unauthorized Access,Initial Access,EDR Agent,10.0.8.137,10.0.19.128,File Server,Operations,Omar Al-Dosari,Resolved,Yes,4.6
+ALT-00361,2026-05-11 09:19:25,2026-05-14 04:00:13,Low,Data Exfiltration Attempt,Exfiltration,Email Gateway,177.63.221.38,10.0.20.7,Domain Controller,IT,Nouf Al-Harbi,Escalated,Yes,66.68
+ALT-00362,2026-05-11 10:01:20,2026-05-12 01:35:32,High,Suspicious PowerShell,Execution,Elastic SIEM,60.51.126.169,10.0.7.70,Finance ERP App,Finance,Omar Al-Dosari,Resolved,Yes,15.57
+ALT-00363,2026-05-11 13:25:44,2026-05-11 16:08:56,Medium,Brute Force Login,Credential Access,EDR Agent,97.207.0.78,10.0.9.55,Domain Controller,IT,Omar Al-Dosari,False Positive,No,2.72
+ALT-00364,2026-05-11 14:53:48,2026-05-12 03:28:36,Low,DDoS Traffic,Impact,Wireshark,180.78.14.159,10.0.22.141,Sales CRM,Sales,Nouf Al-Harbi,Resolved,Yes,12.58
+ALT-00365,2026-05-11 15:37:24,2026-05-11 19:42:12,Medium,Suspicious PowerShell,Execution,Firewall/IDS,109.13.174.98,10.0.3.111,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,4.08
+ALT-00366,2026-05-11 16:49:26,2026-05-12 10:52:26,Low,Port Scan,Reconnaissance,Proxy Logs,10.0.2.132,10.0.29.54,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,18.05
+ALT-00367,2026-05-11 22:49:19,2026-05-12 06:30:07,Critical,Privilege Escalation,Privilege Escalation,Firewall/IDS,136.191.212.180,10.0.17.235,Finance ERP App,Finance,Lama Al-Ghamdi,Resolved,Yes,7.68
+ALT-00368,2026-05-12 08:59:28,2026-05-15 19:57:40,Low,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,10.0.17.12,10.0.16.28,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,82.97
+ALT-00369,2026-05-12 09:22:35,2026-05-13 05:12:59,Medium,Malicious Macro,Execution,EDR Agent,10.0.28.145,10.0.28.252,HR Portal,HR,Sara Alzahrani,Resolved,Yes,19.84
+ALT-00370,2026-05-12 10:22:41,2026-05-13 01:52:05,High,Privilege Escalation,Privilege Escalation,Proxy Logs,10.0.12.19,10.0.29.216,Database Server (SQL),IT,Faisal Al-Qahtani,Resolved,Yes,15.49
+ALT-00371,2026-05-12 11:16:11,2026-05-13 03:20:23,High,C2 Communication,Command and Control,Firewall/IDS,62.105.249.111,10.0.28.116,POS Terminal,Sales,Omar Al-Dosari,Resolved,Yes,16.07
+ALT-00372,2026-05-12 12:38:52,2026-05-13 09:11:52,Low,DDoS Traffic,Impact,Firewall/IDS,10.0.25.49,10.0.11.64,Sales CRM,Sales,Omar Al-Dosari,Resolved,Yes,20.55
+ALT-00373,2026-05-12 12:41:03,2026-05-12 12:59:39,High,C2 Communication,Command and Control,Wireshark,23.184.162.34,10.0.12.222,Employee Workstation,Operations,Omar Al-Dosari,False Positive,No,0.31
+ALT-00374,2026-05-12 13:31:50,2026-05-13 02:06:38,Medium,Data Exfiltration Attempt,Exfiltration,Email Gateway,91.108.76.48,10.0.5.94,Email Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,12.58
+ALT-00375,2026-05-12 17:08:03,2026-05-14 09:21:15,Low,Policy Violation,N/A,Email Gateway,64.234.61.179,10.0.16.119,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,40.22
+ALT-00376,2026-05-13 04:54:32,2026-05-13 06:53:20,Critical,Data Exfiltration Attempt,Exfiltration,Firewall/IDS,23.172.151.146,10.0.21.195,Employee Workstation,Operations,Faisal Al-Qahtani,False Positive,No,1.98
+ALT-00377,2026-05-13 08:41:15,2026-05-13 10:56:15,High,Malicious Macro,Execution,Elastic SIEM,10.0.7.227,10.0.19.181,Email Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,2.25
+ALT-00378,2026-05-13 11:44:51,2026-05-13 12:35:15,Medium,Unauthorized Access,Initial Access,Wireshark,128.187.141.254,10.0.21.103,Employee Workstation,Operations,Omar Al-Dosari,False Positive,No,0.84
+ALT-00379,2026-05-13 13:33:00,,High,Malware Detected,Execution,EDR Agent,10.0.13.124,10.0.23.19,VPN Gateway,IT,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00380,2026-05-13 17:09:47,2026-05-13 18:31:23,High,Suspicious PowerShell,Execution,Elastic SIEM,178.23.124.180,10.0.20.35,Employee Workstation,Operations,Faisal Al-Qahtani,Resolved,Yes,1.36
+ALT-00381,2026-05-13 21:55:59,2026-05-14 16:04:59,High,Data Exfiltration Attempt,Exfiltration,EDR Agent,148.75.61.244,10.0.24.116,Domain Controller,IT,Nouf Al-Harbi,Resolved,Yes,18.15
+ALT-00382,2026-05-14 09:07:06,2026-05-14 09:40:06,Medium,Policy Violation,N/A,Wireshark,193.86.30.158,10.0.30.85,Web Server 01,IT,Nouf Al-Harbi,False Positive,No,0.55
+ALT-00383,2026-05-14 12:05:37,2026-05-14 12:52:25,High,Privilege Escalation,Privilege Escalation,Proxy Logs,10.0.27.6,10.0.11.144,Executive Laptop,Executive,Faisal Al-Qahtani,False Positive,No,0.78
+ALT-00384,2026-05-14 16:05:54,2026-05-14 23:39:30,Critical,Malware Detected,Execution,Proxy Logs,168.20.41.108,10.0.21.151,Employee Workstation,Operations,Faisal Al-Qahtani,Resolved,Yes,7.56
+ALT-00385,2026-05-14 16:29:35,2026-05-14 19:56:35,Critical,Privilege Escalation,Privilege Escalation,Email Gateway,10.0.11.177,10.0.11.92,Domain Controller,IT,Nouf Al-Harbi,Resolved,Yes,3.45
+ALT-00386,2026-05-14 18:17:15,2026-05-14 22:59:51,Critical,Malicious Macro,Execution,EDR Agent,10.0.8.182,10.0.14.56,Web Server 01,IT,Lama Al-Ghamdi,Resolved,Yes,4.71
+ALT-00387,2026-05-15 09:25:44,,Low,Malicious Macro,Execution,Email Gateway,10.0.16.247,10.0.25.83,POS Terminal,Sales,Nouf Al-Harbi,In Progress,Yes,
+ALT-00388,2026-05-15 14:19:23,2026-05-17 03:12:11,Medium,Port Scan,Reconnaissance,Elastic SIEM,10.0.9.122,10.0.17.4,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,36.88
+ALT-00389,2026-05-15 16:32:58,2026-05-15 17:37:46,Low,Brute Force Login,Credential Access,EDR Agent,10.0.30.21,10.0.4.195,Finance ERP App,Finance,Nouf Al-Harbi,False Positive,No,1.08
+ALT-00390,2026-05-15 21:15:51,2026-05-16 07:42:15,Medium,DDoS Traffic,Impact,Email Gateway,36.251.35.245,10.0.6.15,Domain Controller,IT,Omar Al-Dosari,Resolved,Yes,10.44
+ALT-00391,2026-05-15 23:03:48,2026-05-16 11:19:24,High,C2 Communication,Command and Control,Firewall/IDS,198.183.14.181,10.0.22.92,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,12.26
+ALT-00392,2026-05-16 15:08:12,2026-05-18 09:17:12,Medium,Policy Violation,N/A,EDR Agent,10.0.0.20,10.0.20.6,HR Portal,HR,Faisal Al-Qahtani,Resolved,Yes,42.15
+ALT-00393,2026-05-16 16:27:07,2026-05-17 08:31:55,High,Brute Force Login,Credential Access,Elastic SIEM,48.255.8.162,10.0.16.149,Employee Workstation,Operations,Faisal Al-Qahtani,Resolved,Yes,16.08
+ALT-00394,2026-05-16 17:34:09,2026-05-16 19:44:57,High,Malware Detected,Execution,EDR Agent,150.228.28.117,10.0.4.133,Sales CRM,Sales,Sara Alzahrani,False Positive,No,2.18
+ALT-00395,2026-05-16 18:12:18,2026-05-19 23:44:42,Low,Unauthorized Access,Initial Access,Proxy Logs,122.225.197.87,10.0.5.129,Email Gateway,IT,Nouf Al-Harbi,Resolved,Yes,77.54
+ALT-00396,2026-05-16 20:45:33,2026-05-17 09:52:45,High,Malware Detected,Execution,Proxy Logs,131.30.102.94,10.0.14.39,Domain Controller,IT,Omar Al-Dosari,Resolved,Yes,13.12
+ALT-00397,2026-05-17 09:29:07,2026-05-18 14:38:43,Low,DDoS Traffic,Impact,Proxy Logs,140.124.233.142,10.0.4.100,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,29.16
+ALT-00398,2026-05-17 09:56:45,2026-05-17 13:01:33,High,Malware Detected,Execution,Firewall/IDS,188.240.243.144,10.0.27.42,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,3.08
+ALT-00399,2026-05-17 10:16:48,2026-05-20 09:42:00,Low,Data Exfiltration Attempt,Exfiltration,Proxy Logs,10.0.4.186,10.0.17.127,File Server,Operations,Omar Al-Dosari,Resolved,Yes,71.42
+ALT-00400,2026-05-17 12:24:08,2026-05-19 11:54:44,Medium,Port Scan,Reconnaissance,Wireshark,111.245.248.89,10.0.29.146,Sales CRM,Sales,Lama Al-Ghamdi,Escalated,Yes,47.51
+ALT-00401,2026-05-17 15:21:50,2026-05-18 14:03:50,Medium,Malicious Macro,Execution,EDR Agent,115.71.65.79,10.0.30.190,Domain Controller,IT,Omar Al-Dosari,Resolved,Yes,22.7
+ALT-00402,2026-05-17 16:08:39,2026-05-17 22:24:51,Critical,Malicious Macro,Execution,Proxy Logs,38.64.162.165,10.0.2.117,VPN Gateway,IT,Omar Al-Dosari,Resolved,Yes,6.27
+ALT-00403,2026-05-17 17:13:45,2026-05-18 11:25:45,High,Unauthorized Access,Initial Access,Firewall/IDS,43.216.141.12,10.0.0.87,File Server,Operations,Lama Al-Ghamdi,Resolved,Yes,18.2
+ALT-00404,2026-05-18 10:01:16,2026-05-19 08:04:16,Low,Policy Violation,N/A,Proxy Logs,10.0.18.215,10.0.7.129,Executive Laptop,Executive,Omar Al-Dosari,Resolved,Yes,22.05
+ALT-00405,2026-05-18 13:01:13,2026-05-19 00:44:25,High,Suspicious PowerShell,Execution,EDR Agent,119.169.196.194,10.0.23.37,POS Terminal,Sales,Sara Alzahrani,Resolved,Yes,11.72
+ALT-00406,2026-05-18 13:51:37,2026-05-18 18:39:01,High,Malware Detected,Execution,Firewall/IDS,10.0.9.147,10.0.29.162,Domain Controller,IT,Faisal Al-Qahtani,Resolved,Yes,4.79
+ALT-00407,2026-05-18 18:03:12,2026-05-19 09:35:36,Medium,Brute Force Login,Credential Access,Firewall/IDS,196.72.237.213,10.0.20.117,Finance ERP App,Finance,Omar Al-Dosari,Resolved,Yes,15.54
+ALT-00408,2026-05-19 08:56:59,2026-05-22 19:22:47,Low,Policy Violation,N/A,Proxy Logs,10.0.8.143,10.0.3.45,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,82.43
+ALT-00409,2026-05-19 10:17:25,2026-05-20 04:11:25,High,Malware Detected,Execution,Proxy Logs,10.0.7.14,10.0.23.123,File Server,Operations,Omar Al-Dosari,Resolved,Yes,17.9
+ALT-00410,2026-05-19 12:13:42,2026-05-19 13:11:54,High,Privilege Escalation,Privilege Escalation,EDR Agent,10.0.24.241,10.0.2.4,Finance ERP App,Finance,Faisal Al-Qahtani,False Positive,No,0.97
+ALT-00411,2026-05-19 12:38:06,2026-05-20 02:30:54,High,Phishing Email,Initial Access,Wireshark,161.206.244.152,10.0.4.68,VPN Gateway,IT,Nouf Al-Harbi,Escalated,Yes,13.88
+ALT-00412,2026-05-19 14:16:05,2026-05-20 12:29:53,Low,Port Scan,Reconnaissance,Wireshark,10.0.18.52,10.0.17.159,POS Terminal,Sales,Faisal Al-Qahtani,Resolved,Yes,22.23
+ALT-00413,2026-05-19 18:56:45,,Medium,Phishing Email,Initial Access,EDR Agent,10.0.17.103,10.0.23.12,Database Server (SQL),IT,Sara Alzahrani,In Progress,Yes,
+ALT-00414,2026-05-19 19:36:55,2026-05-20 16:56:43,Low,Port Scan,Reconnaissance,EDR Agent,10.0.18.248,10.0.14.165,Domain Controller,IT,Sara Alzahrani,Resolved,Yes,21.33
+ALT-00415,2026-05-20 02:09:46,2026-05-20 20:04:22,High,Privilege Escalation,Privilege Escalation,EDR Agent,10.0.15.163,10.0.23.171,Finance ERP App,Finance,Lama Al-Ghamdi,Resolved,Yes,17.91
+ALT-00416,2026-05-20 11:55:08,,Medium,Brute Force Login,Credential Access,Wireshark,57.80.162.18,10.0.17.138,Sales CRM,Sales,Omar Al-Dosari,In Progress,Yes,
+ALT-00417,2026-05-20 14:17:52,,Medium,Port Scan,Reconnaissance,Wireshark,10.0.24.142,10.0.0.245,Executive Laptop,Executive,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00418,2026-05-20 19:41:19,2026-05-24 12:29:55,Low,Phishing Email,Initial Access,EDR Agent,10.0.28.211,10.0.13.108,Executive Laptop,Executive,Sara Alzahrani,Escalated,Yes,88.81
+ALT-00419,2026-05-21 03:13:33,2026-05-21 20:43:33,Medium,Phishing Email,Initial Access,Firewall/IDS,114.175.161.210,10.0.7.242,Sales CRM,Sales,Omar Al-Dosari,Resolved,Yes,17.5
+ALT-00420,2026-05-21 09:08:40,2026-05-21 18:36:52,High,Privilege Escalation,Privilege Escalation,Email Gateway,10.0.30.141,10.0.19.89,Email Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,9.47
+ALT-00421,2026-05-21 10:28:29,2026-05-22 09:47:05,Medium,Unauthorized Access,Initial Access,Firewall/IDS,43.80.155.212,10.0.22.180,Sales CRM,Sales,Faisal Al-Qahtani,Resolved,Yes,23.31
+ALT-00422,2026-05-21 13:40:28,2026-05-21 23:59:04,High,DDoS Traffic,Impact,Wireshark,10.0.24.189,10.0.15.59,Sales CRM,Sales,Lama Al-Ghamdi,Resolved,Yes,10.31
+ALT-00423,2026-05-21 18:22:01,2026-05-21 22:25:01,High,Malicious Macro,Execution,Firewall/IDS,206.123.34.26,10.0.26.150,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,4.05
+ALT-00424,2026-05-22 11:47:43,2026-05-23 02:48:55,High,Unauthorized Access,Initial Access,Firewall/IDS,116.112.37.121,10.0.18.126,Employee Workstation,Operations,Faisal Al-Qahtani,Resolved,Yes,15.02
+ALT-00425,2026-05-22 16:02:57,2026-05-23 00:44:57,High,Suspicious PowerShell,Execution,Firewall/IDS,183.9.145.243,10.0.2.57,Web Server 01,IT,Faisal Al-Qahtani,Resolved,Yes,8.7
+ALT-00426,2026-05-22 16:34:31,2026-05-22 19:39:19,High,Privilege Escalation,Privilege Escalation,Elastic SIEM,98.13.242.68,10.0.30.169,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,3.08
+ALT-00427,2026-05-22 17:05:40,2026-05-24 16:28:28,Medium,Brute Force Login,Credential Access,Email Gateway,178.185.112.119,10.0.24.162,Email Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,47.38
+ALT-00428,2026-05-22 18:37:39,2026-05-23 12:39:27,High,Malware Detected,Execution,Proxy Logs,147.162.58.203,10.0.21.106,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,18.03
+ALT-00429,2026-05-22 18:57:52,2026-05-22 21:50:04,Critical,Data Exfiltration Attempt,Exfiltration,Email Gateway,10.0.28.167,10.0.13.229,Email Gateway,IT,Sara Alzahrani,Resolved,Yes,2.87
+ALT-00430,2026-05-22 23:56:21,2026-05-23 03:32:57,Critical,Malware Detected,Execution,Elastic SIEM,26.117.169.88,10.0.7.54,File Server,Operations,Lama Al-Ghamdi,Escalated,Yes,3.61
+ALT-00431,2026-05-23 00:15:18,2026-05-23 18:32:06,High,Malware Detected,Execution,Wireshark,10.0.6.165,10.0.29.10,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,18.28
+ALT-00432,2026-05-23 03:45:34,,High,Suspicious PowerShell,Execution,Email Gateway,193.68.170.45,10.0.20.196,Employee Workstation,Operations,Nouf Al-Harbi,In Progress,Yes,
+ALT-00433,2026-05-23 04:57:34,,Critical,C2 Communication,Command and Control,Elastic SIEM,181.15.207.197,10.0.18.56,File Server,Operations,Sara Alzahrani,In Progress,Yes,
+ALT-00434,2026-05-23 09:03:06,2026-05-26 04:40:18,Low,Port Scan,Reconnaissance,Proxy Logs,163.90.233.192,10.0.18.94,Web Server 01,IT,Nouf Al-Harbi,Resolved,Yes,67.62
+ALT-00435,2026-05-23 09:37:42,2026-05-24 20:14:18,Medium,Malware Detected,Execution,Proxy Logs,10.0.17.98,10.0.20.204,Finance ERP App,Finance,Omar Al-Dosari,Resolved,Yes,34.61
+ALT-00436,2026-05-23 11:12:43,2026-05-24 19:27:07,Low,Suspicious PowerShell,Execution,Firewall/IDS,51.255.233.106,10.0.13.92,HR Portal,HR,Sara Alzahrani,Resolved,Yes,32.24
+ALT-00437,2026-05-23 13:09:05,2026-05-23 15:53:29,Critical,Privilege Escalation,Privilege Escalation,EDR Agent,64.15.207.219,10.0.14.144,HR Portal,HR,Lama Al-Ghamdi,Resolved,Yes,2.74
+ALT-00438,2026-05-23 13:17:08,2026-05-24 02:38:08,High,Privilege Escalation,Privilege Escalation,Email Gateway,10.0.14.23,10.0.30.67,Employee Workstation,Operations,Nouf Al-Harbi,Resolved,Yes,13.35
+ALT-00439,2026-05-23 13:21:53,,Low,Suspicious PowerShell,Execution,Proxy Logs,10.0.3.46,10.0.6.250,POS Terminal,Sales,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00440,2026-05-23 18:25:07,2026-05-25 06:24:31,Medium,Brute Force Login,Credential Access,Wireshark,174.89.33.151,10.0.4.192,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,35.99
+ALT-00441,2026-05-23 21:14:26,2026-05-26 07:35:26,Low,Unauthorized Access,Initial Access,Proxy Logs,125.11.124.12,10.0.4.148,Database Server (SQL),IT,Omar Al-Dosari,Resolved,Yes,58.35
+ALT-00442,2026-05-24 11:48:32,2026-05-25 20:29:56,Medium,Malicious Macro,Execution,Firewall/IDS,10.0.12.254,10.0.19.16,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,32.69
+ALT-00443,2026-05-24 18:40:31,2026-05-28 00:02:07,Low,Malicious Macro,Execution,Firewall/IDS,147.48.232.81,10.0.5.241,Web Server 01,IT,Lama Al-Ghamdi,Escalated,Yes,77.36
+ALT-00444,2026-05-25 03:05:51,2026-05-25 18:20:51,High,Malicious Macro,Execution,Email Gateway,159.51.227.129,10.0.18.208,Email Gateway,IT,Omar Al-Dosari,Resolved,Yes,15.25
+ALT-00445,2026-05-25 10:51:02,,High,Phishing Email,Initial Access,EDR Agent,99.74.75.121,10.0.9.156,Executive Laptop,Executive,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00446,2026-05-25 11:43:19,2026-05-26 11:34:55,Medium,C2 Communication,Command and Control,Elastic SIEM,38.233.212.227,10.0.20.149,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,23.86
+ALT-00447,2026-05-25 13:08:29,2026-05-26 06:30:05,High,Privilege Escalation,Privilege Escalation,Wireshark,10.0.28.182,10.0.16.101,Email Gateway,IT,Nouf Al-Harbi,Resolved,Yes,17.36
+ALT-00448,2026-05-25 15:48:03,,Critical,C2 Communication,Command and Control,Firewall/IDS,27.122.81.80,10.0.17.5,Web Server 01,IT,Omar Al-Dosari,In Progress,Yes,
+ALT-00449,2026-05-25 16:52:48,2026-05-25 22:12:00,Critical,DDoS Traffic,Impact,Firewall/IDS,82.20.164.98,10.0.29.205,File Server,Operations,Omar Al-Dosari,Resolved,Yes,5.32
+ALT-00450,2026-05-25 18:12:45,2026-05-26 01:12:45,Critical,Malicious Macro,Execution,Firewall/IDS,10.0.14.164,10.0.26.95,Domain Controller,IT,Sara Alzahrani,Escalated,Yes,7.0
+ALT-00451,2026-05-25 18:33:19,2026-05-26 03:39:19,High,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,10.0.22.234,10.0.14.20,Email Gateway,IT,Omar Al-Dosari,Escalated,Yes,9.1
+ALT-00452,2026-05-26 08:48:41,2026-05-28 08:01:53,Medium,Malicious Macro,Execution,Proxy Logs,168.119.179.77,10.0.9.172,Executive Laptop,Executive,Sara Alzahrani,Resolved,Yes,47.22
+ALT-00453,2026-05-26 16:17:51,,Medium,Phishing Email,Initial Access,Elastic SIEM,10.0.10.231,10.0.12.170,VPN Gateway,IT,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00454,2026-05-27 08:47:01,2026-05-30 08:25:25,Low,Unauthorized Access,Initial Access,Wireshark,10.0.1.92,10.0.17.88,HR Portal,HR,Sara Alzahrani,Escalated,Yes,71.64
+ALT-00455,2026-05-27 11:08:05,2026-05-28 01:54:17,High,Malware Detected,Execution,Wireshark,10.0.23.52,10.0.7.110,Domain Controller,IT,Lama Al-Ghamdi,Resolved,Yes,14.77
+ALT-00456,2026-05-27 12:15:14,2026-05-28 09:39:50,Medium,Malware Detected,Execution,Proxy Logs,10.0.6.61,10.0.16.156,File Server,Operations,Lama Al-Ghamdi,Resolved,Yes,21.41
+ALT-00457,2026-05-27 12:37:34,2026-05-28 06:41:46,High,Suspicious PowerShell,Execution,EDR Agent,10.0.8.98,10.0.29.59,File Server,Operations,Nouf Al-Harbi,Resolved,Yes,18.07
+ALT-00458,2026-05-28 01:54:20,2026-05-28 03:21:20,Low,Port Scan,Reconnaissance,Firewall/IDS,10.0.24.13,10.0.28.186,VPN Gateway,IT,Sara Alzahrani,False Positive,No,1.45
+ALT-00459,2026-05-28 07:01:37,2026-05-29 03:41:13,Low,Suspicious PowerShell,Execution,Firewall/IDS,185.222.152.147,10.0.4.27,Database Server (SQL),IT,Sara Alzahrani,Escalated,Yes,20.66
+ALT-00460,2026-05-28 07:16:05,2026-05-31 07:37:05,Low,Port Scan,Reconnaissance,Email Gateway,125.96.35.47,10.0.4.76,Sales CRM,Sales,Nouf Al-Harbi,Resolved,Yes,72.35
+ALT-00461,2026-05-28 08:47:39,2026-05-28 09:29:39,High,C2 Communication,Command and Control,EDR Agent,36.52.95.94,10.0.10.52,VPN Gateway,IT,Sara Alzahrani,False Positive,No,0.7
+ALT-00462,2026-05-28 11:05:34,2026-05-28 12:56:34,Medium,Privilege Escalation,Privilege Escalation,Firewall/IDS,68.111.245.54,10.0.27.234,Email Gateway,IT,Omar Al-Dosari,False Positive,No,1.85
+ALT-00463,2026-05-28 11:44:53,2026-05-28 22:00:29,Medium,Privilege Escalation,Privilege Escalation,Email Gateway,130.234.196.234,10.0.21.48,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,10.26
+ALT-00464,2026-05-28 15:38:42,2026-05-29 05:54:18,High,Malware Detected,Execution,Proxy Logs,168.178.206.18,10.0.1.9,Sales CRM,Sales,Lama Al-Ghamdi,Resolved,Yes,14.26
+ALT-00465,2026-05-29 09:14:15,2026-05-29 13:28:39,High,Privilege Escalation,Privilege Escalation,Wireshark,10.0.11.222,10.0.29.85,File Server,Operations,Faisal Al-Qahtani,Resolved,Yes,4.24
+ALT-00466,2026-05-29 12:20:38,,Critical,Privilege Escalation,Privilege Escalation,Wireshark,10.0.22.164,10.0.15.249,HR Portal,HR,Omar Al-Dosari,In Progress,Yes,
+ALT-00467,2026-05-29 14:02:35,2026-05-29 16:43:23,Critical,Policy Violation,N/A,Email Gateway,187.233.174.94,10.0.26.15,Employee Workstation,Operations,Lama Al-Ghamdi,False Positive,No,2.68
+ALT-00468,2026-05-29 17:26:28,2026-06-02 16:05:28,Low,Malicious Macro,Execution,Wireshark,157.216.231.11,10.0.0.210,Sales CRM,Sales,Faisal Al-Qahtani,Resolved,Yes,94.65
+ALT-00469,2026-05-29 17:43:26,2026-05-30 23:00:14,Medium,Unauthorized Access,Initial Access,Wireshark,10.0.9.52,10.0.2.108,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,29.28
+ALT-00470,2026-05-30 11:07:50,2026-05-31 05:39:38,High,Malware Detected,Execution,EDR Agent,10.0.11.74,10.0.6.113,Database Server (SQL),IT,Faisal Al-Qahtani,Resolved,Yes,18.53
+ALT-00471,2026-05-30 11:10:48,2026-06-01 07:54:36,Medium,DDoS Traffic,Impact,EDR Agent,91.112.131.171,10.0.15.245,Employee Workstation,Operations,Sara Alzahrani,Resolved,Yes,44.73
+ALT-00472,2026-05-30 12:22:16,2026-05-30 13:48:40,High,Suspicious PowerShell,Execution,Elastic SIEM,120.23.42.107,10.0.28.182,Sales CRM,Sales,Sara Alzahrani,False Positive,No,1.44
+ALT-00473,2026-05-30 14:29:55,2026-05-30 20:27:31,Critical,Privilege Escalation,Privilege Escalation,Proxy Logs,47.127.98.49,10.0.17.116,File Server,Operations,Sara Alzahrani,Resolved,Yes,5.96
+ALT-00474,2026-05-30 14:57:06,2026-05-30 15:27:42,Medium,DDoS Traffic,Impact,Elastic SIEM,10.0.23.153,10.0.7.127,Database Server (SQL),IT,Omar Al-Dosari,False Positive,No,0.51
+ALT-00475,2026-05-30 15:59:17,2026-05-31 02:47:53,Low,Port Scan,Reconnaissance,Firewall/IDS,117.198.170.16,10.0.8.246,File Server,Operations,Nouf Al-Harbi,Resolved,Yes,10.81
+ALT-00476,2026-05-30 18:31:29,2026-05-30 21:29:05,Low,Suspicious PowerShell,Execution,Proxy Logs,10.0.20.82,10.0.4.114,Database Server (SQL),IT,Lama Al-Ghamdi,False Positive,No,2.96
+ALT-00477,2026-05-31 11:57:25,2026-05-31 14:34:01,Medium,Unauthorized Access,Initial Access,EDR Agent,166.158.63.165,10.0.17.23,File Server,Operations,Nouf Al-Harbi,False Positive,No,2.61
+ALT-00478,2026-05-31 14:31:35,2026-05-31 16:53:11,Medium,Data Exfiltration Attempt,Exfiltration,Wireshark,10.0.23.238,10.0.23.217,POS Terminal,Sales,Nouf Al-Harbi,False Positive,No,2.36
+ALT-00479,2026-05-31 16:26:50,,Critical,C2 Communication,Command and Control,EDR Agent,152.185.15.114,10.0.4.199,VPN Gateway,IT,Omar Al-Dosari,In Progress,Yes,
+ALT-00480,2026-05-31 17:02:36,2026-05-31 23:35:00,Medium,DDoS Traffic,Impact,Firewall/IDS,10.0.23.134,10.0.17.150,VPN Gateway,IT,Omar Al-Dosari,Resolved,Yes,6.54
+ALT-00481,2026-06-01 01:41:08,2026-06-01 08:17:44,Critical,Data Exfiltration Attempt,Exfiltration,Email Gateway,34.153.161.143,10.0.17.6,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,6.61
+ALT-00482,2026-06-01 04:34:13,2026-06-01 06:18:01,Medium,Malicious Macro,Execution,Proxy Logs,150.83.214.211,10.0.4.82,Finance ERP App,Finance,Faisal Al-Qahtani,False Positive,No,1.73
+ALT-00483,2026-06-01 09:12:57,,Critical,Data Exfiltration Attempt,Exfiltration,Wireshark,10.0.5.72,10.0.3.180,VPN Gateway,IT,Nouf Al-Harbi,In Progress,Yes,
+ALT-00484,2026-06-01 13:52:24,2026-06-02 08:54:48,Medium,Suspicious PowerShell,Execution,Proxy Logs,10.0.0.58,10.0.23.7,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,19.04
+ALT-00485,2026-06-01 16:25:12,,High,Data Exfiltration Attempt,Exfiltration,Email Gateway,10.0.4.185,10.0.27.111,Executive Laptop,Executive,Sara Alzahrani,In Progress,Yes,
+ALT-00486,2026-06-02 09:57:40,2026-06-02 11:27:04,Critical,DDoS Traffic,Impact,Elastic SIEM,103.212.89.52,10.0.4.203,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,1.49
+ALT-00487,2026-06-02 12:46:47,2026-06-03 06:17:23,Low,Unauthorized Access,Initial Access,Firewall/IDS,184.105.226.179,10.0.11.229,Email Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,17.51
+ALT-00488,2026-06-02 12:48:59,2026-06-02 17:59:47,High,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,159.151.73.77,10.0.21.229,File Server,Operations,Omar Al-Dosari,Resolved,Yes,5.18
+ALT-00489,2026-06-03 05:45:46,2026-06-03 20:12:10,High,Malicious Macro,Execution,EDR Agent,150.81.193.141,10.0.12.13,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,14.44
+ALT-00490,2026-06-03 10:16:57,2026-06-04 10:49:21,Medium,Phishing Email,Initial Access,Email Gateway,159.178.165.188,10.0.14.72,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,24.54
+ALT-00491,2026-06-03 10:46:28,,Medium,Phishing Email,Initial Access,Proxy Logs,134.119.122.80,10.0.30.209,File Server,Operations,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00492,2026-06-03 12:22:56,,High,Malicious Macro,Execution,Proxy Logs,202.39.1.221,10.0.29.252,Database Server (SQL),IT,Nouf Al-Harbi,In Progress,Yes,
+ALT-00493,2026-06-03 13:25:29,,Medium,DDoS Traffic,Impact,Wireshark,95.212.43.30,10.0.26.242,Sales CRM,Sales,Nouf Al-Harbi,In Progress,Yes,
+ALT-00494,2026-06-03 13:40:58,,Medium,Data Exfiltration Attempt,Exfiltration,Firewall/IDS,181.16.60.250,10.0.10.90,Web Server 01,IT,Sara Alzahrani,In Progress,Yes,
+ALT-00495,2026-06-03 15:19:00,2026-06-04 12:40:00,Low,Port Scan,Reconnaissance,Wireshark,131.202.127.42,10.0.22.190,Executive Laptop,Executive,Sara Alzahrani,Resolved,Yes,21.35
+ALT-00496,2026-06-03 16:17:51,,Low,Malicious Macro,Execution,EDR Agent,10.0.9.84,10.0.3.22,Employee Workstation,Operations,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00497,2026-06-04 08:15:56,2026-06-04 08:33:20,Critical,Malware Detected,Execution,Email Gateway,75.252.210.196,10.0.17.33,File Server,Operations,Nouf Al-Harbi,False Positive,No,0.29
+ALT-00498,2026-06-04 10:52:31,2026-06-04 17:21:19,High,Phishing Email,Initial Access,EDR Agent,65.191.95.181,10.0.4.52,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,6.48
+ALT-00499,2026-06-04 11:14:42,2026-06-07 10:17:42,Low,Suspicious PowerShell,Execution,Firewall/IDS,166.200.16.47,10.0.19.83,VPN Gateway,IT,Nouf Al-Harbi,Resolved,Yes,71.05
+ALT-00500,2026-06-04 11:24:05,,Medium,Privilege Escalation,Privilege Escalation,Firewall/IDS,10.0.24.210,10.0.24.225,Employee Workstation,Operations,Nouf Al-Harbi,In Progress,Yes,
+ALT-00501,2026-06-04 12:26:42,2026-06-04 13:45:18,Medium,Malicious Macro,Execution,Email Gateway,150.60.144.30,10.0.25.29,Finance ERP App,Finance,Lama Al-Ghamdi,False Positive,No,1.31
+ALT-00502,2026-06-04 12:54:58,2026-06-04 15:54:22,Critical,Privilege Escalation,Privilege Escalation,Proxy Logs,23.242.219.86,10.0.0.47,HR Portal,HR,Sara Alzahrani,Resolved,Yes,2.99
+ALT-00503,2026-06-04 14:31:43,2026-06-04 15:44:19,Low,Policy Violation,N/A,Wireshark,122.139.105.48,10.0.0.42,Employee Workstation,Operations,Omar Al-Dosari,False Positive,No,1.21
+ALT-00504,2026-06-04 14:37:57,2026-06-06 04:55:57,Medium,DDoS Traffic,Impact,Wireshark,33.238.4.18,10.0.12.171,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,38.3
+ALT-00505,2026-06-04 14:47:15,2026-06-04 16:45:27,High,C2 Communication,Command and Control,Proxy Logs,10.0.14.243,10.0.21.39,HR Portal,HR,Sara Alzahrani,False Positive,No,1.97
+ALT-00506,2026-06-04 18:05:45,2026-06-04 22:29:45,Critical,Malicious Macro,Execution,Elastic SIEM,22.175.61.253,10.0.27.110,Database Server (SQL),IT,Faisal Al-Qahtani,Resolved,Yes,4.4
+ALT-00507,2026-06-04 18:46:25,2026-06-05 10:06:13,Medium,Data Exfiltration Attempt,Exfiltration,Email Gateway,10.0.4.88,10.0.2.123,Executive Laptop,Executive,Sara Alzahrani,Resolved,Yes,15.33
+ALT-00508,2026-06-05 17:46:36,2026-06-08 14:13:36,Low,C2 Communication,Command and Control,Firewall/IDS,10.0.21.188,10.0.7.125,File Server,Operations,Lama Al-Ghamdi,Resolved,Yes,68.45
+ALT-00509,2026-06-05 18:17:38,,Critical,DDoS Traffic,Impact,Proxy Logs,10.0.23.189,10.0.29.247,Email Gateway,IT,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00510,2026-06-05 18:33:00,,Low,DDoS Traffic,Impact,Proxy Logs,10.0.3.229,10.0.3.192,Finance ERP App,Finance,Sara Alzahrani,In Progress,Yes,
+ALT-00511,2026-06-05 22:46:32,2026-06-06 02:17:08,High,Suspicious PowerShell,Execution,Proxy Logs,10.0.6.239,10.0.4.111,Executive Laptop,Executive,Faisal Al-Qahtani,Resolved,Yes,3.51
+ALT-00512,2026-06-06 04:10:15,2026-06-06 07:26:27,Critical,Malicious Macro,Execution,Email Gateway,10.0.22.10,10.0.21.83,HR Portal,HR,Faisal Al-Qahtani,Resolved,Yes,3.27
+ALT-00513,2026-06-06 13:28:00,2026-06-06 16:31:00,High,Brute Force Login,Credential Access,Elastic SIEM,10.0.12.114,10.0.23.109,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,3.05
+ALT-00514,2026-06-06 14:20:23,2026-06-06 14:44:23,High,Malicious Macro,Execution,EDR Agent,10.0.13.116,10.0.17.144,Finance ERP App,Finance,Nouf Al-Harbi,False Positive,No,0.4
+ALT-00515,2026-06-06 18:50:54,2026-06-07 08:38:18,High,Privilege Escalation,Privilege Escalation,EDR Agent,139.86.228.245,10.0.3.125,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,13.79
+ALT-00516,2026-06-07 09:14:46,2026-06-07 11:54:22,Critical,Privilege Escalation,Privilege Escalation,Wireshark,207.1.48.48,10.0.16.234,Domain Controller,IT,Faisal Al-Qahtani,Resolved,Yes,2.66
+ALT-00517,2026-06-07 10:19:06,2026-06-07 16:10:42,Critical,Suspicious PowerShell,Execution,Email Gateway,10.0.22.214,10.0.20.64,Finance ERP App,Finance,Omar Al-Dosari,Resolved,Yes,5.86
+ALT-00518,2026-06-07 11:05:09,2026-06-08 12:00:57,Medium,Phishing Email,Initial Access,EDR Agent,10.0.22.204,10.0.1.86,HR Portal,HR,Nouf Al-Harbi,Escalated,Yes,24.93
+ALT-00519,2026-06-07 11:41:31,2026-06-09 08:51:07,Medium,Malicious Macro,Execution,Elastic SIEM,114.29.136.136,10.0.1.189,File Server,Operations,Nouf Al-Harbi,Resolved,Yes,45.16
+ALT-00520,2026-06-07 17:02:52,2026-06-07 19:22:04,High,Phishing Email,Initial Access,Email Gateway,183.15.254.228,10.0.20.141,File Server,Operations,Nouf Al-Harbi,False Positive,No,2.32
+ALT-00521,2026-06-07 17:12:29,2026-06-08 01:25:41,High,Malicious Macro,Execution,EDR Agent,132.171.220.209,10.0.26.222,Email Gateway,IT,Nouf Al-Harbi,Escalated,Yes,8.22
+ALT-00522,2026-06-08 02:24:35,,Low,Port Scan,Reconnaissance,Email Gateway,10.0.22.161,10.0.18.135,Finance ERP App,Finance,Omar Al-Dosari,In Progress,Yes,
+ALT-00523,2026-06-08 06:28:51,2026-06-09 14:20:27,Low,Brute Force Login,Credential Access,EDR Agent,10.0.4.185,10.0.13.204,Employee Workstation,Operations,Omar Al-Dosari,Resolved,Yes,31.86
+ALT-00524,2026-06-08 12:49:16,2026-06-08 14:36:04,Critical,DDoS Traffic,Impact,Wireshark,10.0.14.239,10.0.19.33,Employee Workstation,Operations,Sara Alzahrani,False Positive,No,1.78
+ALT-00525,2026-06-08 14:43:27,2026-06-08 18:32:39,High,Malware Detected,Execution,Firewall/IDS,177.125.151.128,10.0.13.227,Web Server 01,IT,Nouf Al-Harbi,Resolved,Yes,3.82
+ALT-00526,2026-06-08 14:53:43,2026-06-11 10:26:07,Low,DDoS Traffic,Impact,Wireshark,10.0.15.35,10.0.5.53,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,67.54
+ALT-00527,2026-06-09 05:36:03,,Low,Malicious Macro,Execution,EDR Agent,150.69.245.128,10.0.16.177,Sales CRM,Sales,Sara Alzahrani,In Progress,Yes,
+ALT-00528,2026-06-09 10:48:53,2026-06-11 05:09:17,Medium,Policy Violation,N/A,Elastic SIEM,10.0.3.100,10.0.16.152,File Server,Operations,Faisal Al-Qahtani,Resolved,Yes,42.34
+ALT-00529,2026-06-09 12:01:34,,Low,DDoS Traffic,Impact,Elastic SIEM,10.0.20.164,10.0.19.143,Executive Laptop,Executive,Omar Al-Dosari,In Progress,Yes,
+ALT-00530,2026-06-09 12:08:48,2026-06-10 02:26:48,Medium,Unauthorized Access,Initial Access,Firewall/IDS,10.0.3.14,10.0.9.244,Employee Workstation,Operations,Faisal Al-Qahtani,Resolved,Yes,14.3
+ALT-00531,2026-06-09 13:29:50,2026-06-10 03:44:14,High,C2 Communication,Command and Control,EDR Agent,10.0.9.13,10.0.25.183,HR Portal,HR,Sara Alzahrani,Resolved,Yes,14.24
+ALT-00532,2026-06-09 17:49:43,2026-06-10 00:32:19,High,Unauthorized Access,Initial Access,Proxy Logs,10.0.30.153,10.0.28.190,Web Server 01,IT,Lama Al-Ghamdi,Resolved,Yes,6.71
+ALT-00533,2026-06-10 15:05:08,2026-06-10 21:18:56,High,Policy Violation,N/A,Firewall/IDS,10.0.23.30,10.0.19.46,Finance ERP App,Finance,Faisal Al-Qahtani,Resolved,Yes,6.23
+ALT-00534,2026-06-10 15:07:37,2026-06-12 13:05:49,Medium,Suspicious PowerShell,Execution,Elastic SIEM,10.0.3.177,10.0.26.154,Sales CRM,Sales,Omar Al-Dosari,Resolved,Yes,45.97
+ALT-00535,2026-06-11 10:24:46,2026-06-11 12:25:58,Medium,Phishing Email,Initial Access,Firewall/IDS,10.0.26.154,10.0.27.42,VPN Gateway,IT,Sara Alzahrani,False Positive,No,2.02
+ALT-00536,2026-06-11 12:12:45,,Low,Suspicious PowerShell,Execution,Proxy Logs,10.0.9.74,10.0.26.90,POS Terminal,Sales,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00537,2026-06-11 12:28:07,2026-06-11 22:50:55,High,Data Exfiltration Attempt,Exfiltration,EDR Agent,10.0.1.229,10.0.13.190,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,10.38
+ALT-00538,2026-06-11 15:06:51,2026-06-11 18:36:51,Critical,Malware Detected,Execution,Wireshark,185.43.132.235,10.0.26.21,Email Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,3.5
+ALT-00539,2026-06-11 16:55:20,2026-06-12 23:37:56,Medium,Privilege Escalation,Privilege Escalation,Proxy Logs,10.0.11.237,10.0.21.35,Sales CRM,Sales,Faisal Al-Qahtani,Resolved,Yes,30.71
+ALT-00540,2026-06-11 17:27:57,2026-06-13 06:14:09,Medium,Suspicious PowerShell,Execution,Wireshark,59.81.216.153,10.0.2.100,Domain Controller,IT,Lama Al-Ghamdi,Resolved,Yes,36.77
+ALT-00541,2026-06-11 18:41:50,2026-06-13 01:28:02,Low,Policy Violation,N/A,Wireshark,10.0.10.191,10.0.18.241,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,30.77
+ALT-00542,2026-06-12 13:45:02,2026-06-14 11:28:50,Medium,Brute Force Login,Credential Access,Wireshark,10.0.9.46,10.0.3.97,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,45.73
+ALT-00543,2026-06-12 13:52:54,2026-06-14 23:14:30,Low,DDoS Traffic,Impact,Proxy Logs,23.70.144.96,10.0.24.126,Finance ERP App,Finance,Nouf Al-Harbi,Resolved,Yes,57.36
+ALT-00544,2026-06-12 14:13:08,2026-06-12 21:00:32,High,Unauthorized Access,Initial Access,Elastic SIEM,166.12.232.119,10.0.24.37,File Server,Operations,Sara Alzahrani,Resolved,Yes,6.79
+ALT-00545,2026-06-12 16:30:11,2026-06-14 06:06:47,Medium,Unauthorized Access,Initial Access,Firewall/IDS,10.0.4.220,10.0.27.170,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,37.61
+ALT-00546,2026-06-13 13:12:05,,Medium,Suspicious PowerShell,Execution,Wireshark,29.143.252.232,10.0.22.182,POS Terminal,Sales,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00547,2026-06-14 11:18:10,,Critical,Policy Violation,N/A,Elastic SIEM,141.187.94.113,10.0.21.247,POS Terminal,Sales,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00548,2026-06-14 11:52:55,2026-06-15 07:34:55,High,C2 Communication,Command and Control,Email Gateway,158.128.89.29,10.0.21.223,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,19.7
+ALT-00549,2026-06-14 11:58:15,2026-06-14 13:54:39,Critical,C2 Communication,Command and Control,Elastic SIEM,76.49.85.186,10.0.5.13,VPN Gateway,IT,Sara Alzahrani,Resolved,Yes,1.94
+ALT-00550,2026-06-14 15:27:30,2026-06-18 10:18:30,Low,Privilege Escalation,Privilege Escalation,Proxy Logs,118.214.254.138,10.0.17.128,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,90.85
+ALT-00551,2026-06-14 15:35:10,,Medium,Brute Force Login,Credential Access,EDR Agent,196.102.159.103,10.0.21.168,Executive Laptop,Executive,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00552,2026-06-14 18:55:42,2026-06-14 21:44:54,Critical,Malware Detected,Execution,Wireshark,134.147.92.31,10.0.28.35,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,2.82
+ALT-00553,2026-06-14 18:57:21,2026-06-15 12:48:21,High,DDoS Traffic,Impact,Wireshark,10.0.18.77,10.0.14.219,HR Portal,HR,Nouf Al-Harbi,Resolved,Yes,17.85
+ALT-00554,2026-06-15 04:33:42,2026-06-16 03:45:06,Medium,Suspicious PowerShell,Execution,EDR Agent,10.0.30.77,10.0.26.58,Employee Workstation,Operations,Sara Alzahrani,Resolved,Yes,23.19
+ALT-00555,2026-06-15 08:54:13,2026-06-15 19:14:01,High,Malware Detected,Execution,Firewall/IDS,99.67.183.171,10.0.3.215,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,10.33
+ALT-00556,2026-06-15 09:24:39,2026-06-16 15:34:51,Medium,Brute Force Login,Credential Access,Wireshark,38.40.82.88,10.0.7.82,Web Server 01,IT,Nouf Al-Harbi,Resolved,Yes,30.17
+ALT-00557,2026-06-15 12:09:10,2026-06-15 23:27:46,High,Brute Force Login,Credential Access,Email Gateway,89.72.145.147,10.0.7.45,Executive Laptop,Executive,Lama Al-Ghamdi,Resolved,Yes,11.31
+ALT-00558,2026-06-15 12:10:47,2026-06-16 07:08:23,High,Data Exfiltration Attempt,Exfiltration,Email Gateway,58.18.189.150,10.0.17.39,VPN Gateway,IT,Sara Alzahrani,Resolved,Yes,18.96
+ALT-00559,2026-06-15 14:38:41,2026-06-15 17:15:17,High,Malicious Macro,Execution,EDR Agent,151.81.33.80,10.0.22.131,Domain Controller,IT,Omar Al-Dosari,False Positive,No,2.61
+ALT-00560,2026-06-15 15:41:42,2026-06-15 17:42:54,High,Phishing Email,Initial Access,Email Gateway,94.199.228.51,10.0.6.176,Web Server 01,IT,Sara Alzahrani,False Positive,No,2.02
+ALT-00561,2026-06-16 08:30:58,2026-06-17 00:48:58,High,Malware Detected,Execution,Elastic SIEM,10.0.30.183,10.0.20.72,Executive Laptop,Executive,Faisal Al-Qahtani,Resolved,Yes,16.3
+ALT-00562,2026-06-16 09:42:34,2026-06-17 00:43:46,Medium,Port Scan,Reconnaissance,EDR Agent,102.56.49.134,10.0.21.19,File Server,Operations,Lama Al-Ghamdi,Resolved,Yes,15.02
+ALT-00563,2026-06-16 10:09:36,2026-06-18 00:18:00,Medium,Suspicious PowerShell,Execution,Elastic SIEM,108.210.135.99,10.0.20.126,Employee Workstation,Operations,Lama Al-Ghamdi,Escalated,Yes,38.14
+ALT-00564,2026-06-16 12:07:09,2026-06-16 17:07:09,Low,Phishing Email,Initial Access,Email Gateway,194.232.132.236,10.0.18.130,Email Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,5.0
+ALT-00565,2026-06-16 19:47:31,2026-06-17 17:16:55,Low,Brute Force Login,Credential Access,Email Gateway,10.0.24.186,10.0.24.170,Domain Controller,IT,Nouf Al-Harbi,Resolved,Yes,21.49
+ALT-00566,2026-06-17 06:23:43,2026-06-19 00:54:55,Low,Suspicious PowerShell,Execution,Firewall/IDS,10.0.6.207,10.0.19.37,Database Server (SQL),IT,Omar Al-Dosari,Resolved,Yes,42.52
+ALT-00567,2026-06-17 09:28:32,2026-06-19 09:57:20,Low,Phishing Email,Initial Access,Wireshark,99.167.73.197,10.0.27.27,Sales CRM,Sales,Faisal Al-Qahtani,Resolved,Yes,48.48
+ALT-00568,2026-06-17 10:23:08,2026-06-17 13:44:08,Medium,Privilege Escalation,Privilege Escalation,Proxy Logs,89.32.134.183,10.0.18.162,Finance ERP App,Finance,Sara Alzahrani,Escalated,Yes,3.35
+ALT-00569,2026-06-17 11:19:29,,High,C2 Communication,Command and Control,Proxy Logs,179.222.33.31,10.0.4.227,HR Portal,HR,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00570,2026-06-17 13:37:12,2026-06-18 06:35:24,High,Malicious Macro,Execution,Proxy Logs,52.131.181.108,10.0.15.187,Executive Laptop,Executive,Sara Alzahrani,Resolved,Yes,16.97
+ALT-00571,2026-06-17 14:52:37,2026-06-17 17:05:13,Critical,DDoS Traffic,Impact,Email Gateway,73.242.119.133,10.0.18.203,File Server,Operations,Faisal Al-Qahtani,Escalated,Yes,2.21
+ALT-00572,2026-06-17 17:14:46,2026-06-18 12:44:10,Medium,Phishing Email,Initial Access,Email Gateway,82.16.56.49,10.0.0.114,Web Server 01,IT,Lama Al-Ghamdi,Escalated,Yes,19.49
+ALT-00573,2026-06-17 18:08:45,2026-06-18 15:51:57,Low,Port Scan,Reconnaissance,Elastic SIEM,136.50.75.183,10.0.13.214,Domain Controller,IT,Nouf Al-Harbi,Resolved,Yes,21.72
+ALT-00574,2026-06-18 09:32:47,2026-06-18 15:48:59,Critical,Unauthorized Access,Initial Access,Wireshark,121.167.15.163,10.0.8.202,VPN Gateway,IT,Sara Alzahrani,Resolved,Yes,6.27
+ALT-00575,2026-06-18 16:24:28,2026-06-18 18:32:52,High,Data Exfiltration Attempt,Exfiltration,EDR Agent,45.106.108.68,10.0.21.22,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,2.14
+ALT-00576,2026-06-18 18:40:25,,Medium,Unauthorized Access,Initial Access,Proxy Logs,10.0.19.175,10.0.25.114,POS Terminal,Sales,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00577,2026-06-18 18:41:56,,Low,Policy Violation,N/A,EDR Agent,136.204.212.187,10.0.3.82,Domain Controller,IT,Omar Al-Dosari,In Progress,Yes,
+ALT-00578,2026-06-19 08:44:59,2026-06-21 08:16:47,Low,Suspicious PowerShell,Execution,Email Gateway,10.0.1.170,10.0.9.209,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,47.53
+ALT-00579,2026-06-19 08:51:41,2026-06-20 14:34:17,Medium,Brute Force Login,Credential Access,Proxy Logs,10.0.8.47,10.0.7.249,Email Gateway,IT,Sara Alzahrani,Resolved,Yes,29.71
+ALT-00580,2026-06-19 10:07:08,,Medium,Privilege Escalation,Privilege Escalation,Elastic SIEM,165.224.92.157,10.0.12.201,Web Server 01,IT,Omar Al-Dosari,In Progress,Yes,
+ALT-00581,2026-06-19 14:01:11,2026-06-22 18:27:35,Low,Privilege Escalation,Privilege Escalation,Proxy Logs,10.0.27.11,10.0.27.122,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,76.44
+ALT-00582,2026-06-20 12:26:07,2026-06-21 16:57:19,Medium,Malicious Macro,Execution,Firewall/IDS,10.0.20.202,10.0.27.149,Executive Laptop,Executive,Lama Al-Ghamdi,Resolved,Yes,28.52
+ALT-00583,2026-06-20 16:41:21,2026-06-23 09:56:57,Low,Port Scan,Reconnaissance,Proxy Logs,160.227.234.78,10.0.18.35,File Server,Operations,Nouf Al-Harbi,Resolved,Yes,65.26
+ALT-00584,2026-06-20 17:52:50,2026-06-20 23:30:02,High,Suspicious PowerShell,Execution,EDR Agent,10.0.24.119,10.0.21.119,Database Server (SQL),IT,Lama Al-Ghamdi,Resolved,Yes,5.62
+ALT-00585,2026-06-21 08:24:09,,Medium,Phishing Email,Initial Access,Firewall/IDS,57.31.151.53,10.0.24.140,Domain Controller,IT,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00586,2026-06-21 11:56:19,2026-06-21 16:29:55,Critical,Malicious Macro,Execution,EDR Agent,10.0.16.143,10.0.9.135,HR Portal,HR,Faisal Al-Qahtani,Resolved,Yes,4.56
+ALT-00587,2026-06-21 13:43:08,,Critical,Privilege Escalation,Privilege Escalation,Firewall/IDS,208.18.97.88,10.0.23.184,Database Server (SQL),IT,Nouf Al-Harbi,In Progress,Yes,
+ALT-00588,2026-06-21 15:14:38,2026-06-22 09:56:38,High,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,188.51.197.76,10.0.19.51,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,18.7
+ALT-00589,2026-06-21 17:44:22,2026-06-21 22:40:10,High,Privilege Escalation,Privilege Escalation,Wireshark,10.0.1.147,10.0.11.138,VPN Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,4.93
+ALT-00590,2026-06-22 09:31:59,2026-06-22 20:48:11,High,C2 Communication,Command and Control,Proxy Logs,177.54.226.184,10.0.8.28,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,11.27
+ALT-00591,2026-06-22 10:35:49,2026-06-22 11:01:37,Medium,Suspicious PowerShell,Execution,Proxy Logs,76.1.174.91,10.0.26.164,POS Terminal,Sales,Nouf Al-Harbi,False Positive,No,0.43
+ALT-00592,2026-06-22 18:29:44,2026-06-22 23:19:32,High,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,30.161.158.132,10.0.12.210,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,4.83
+ALT-00593,2026-06-23 08:48:46,2026-06-24 04:48:10,High,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,109.44.224.222,10.0.3.200,VPN Gateway,IT,Faisal Al-Qahtani,Resolved,Yes,19.99
+ALT-00594,2026-06-23 15:02:08,2026-06-27 06:47:44,Low,Policy Violation,N/A,Elastic SIEM,10.0.4.106,10.0.27.169,HR Portal,HR,Omar Al-Dosari,Resolved,Yes,87.76
+ALT-00595,2026-06-23 15:47:26,2026-06-25 04:09:38,Low,Unauthorized Access,Initial Access,Wireshark,160.167.232.178,10.0.0.197,Employee Workstation,Operations,Nouf Al-Harbi,Resolved,Yes,36.37
+ALT-00596,2026-06-23 21:08:13,2026-06-23 23:58:01,Critical,Privilege Escalation,Privilege Escalation,Proxy Logs,10.0.27.154,10.0.27.24,VPN Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,2.83
+ALT-00597,2026-06-24 09:50:01,2026-06-24 16:33:13,Critical,Malware Detected,Execution,Elastic SIEM,172.4.222.123,10.0.9.74,Sales CRM,Sales,Faisal Al-Qahtani,Resolved,Yes,6.72
+ALT-00598,2026-06-24 13:57:33,2026-06-26 17:44:21,Low,DDoS Traffic,Impact,EDR Agent,57.210.112.169,10.0.4.93,Executive Laptop,Executive,Sara Alzahrani,Resolved,Yes,51.78
+ALT-00599,2026-06-24 15:19:00,2026-06-26 09:44:12,Medium,Port Scan,Reconnaissance,Elastic SIEM,148.79.44.183,10.0.8.38,Email Gateway,IT,Nouf Al-Harbi,Resolved,Yes,42.42
+ALT-00600,2026-06-24 16:43:38,,Medium,Phishing Email,Initial Access,Proxy Logs,10.0.11.216,10.0.4.133,Web Server 01,IT,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00601,2026-06-24 18:27:08,,Medium,DDoS Traffic,Impact,Wireshark,131.118.50.182,10.0.25.34,POS Terminal,Sales,Omar Al-Dosari,In Progress,Yes,
+ALT-00602,2026-06-25 02:25:55,2026-06-25 07:15:07,Critical,Privilege Escalation,Privilege Escalation,EDR Agent,201.213.148.30,10.0.12.7,Email Gateway,IT,Sara Alzahrani,Escalated,Yes,4.82
+ALT-00603,2026-06-25 11:22:52,2026-06-25 17:20:28,High,Brute Force Login,Credential Access,EDR Agent,47.37.150.88,10.0.30.31,Domain Controller,IT,Omar Al-Dosari,Resolved,Yes,5.96
+ALT-00604,2026-06-26 10:08:02,2026-06-26 11:35:38,Low,Brute Force Login,Credential Access,Proxy Logs,40.9.131.56,10.0.26.40,Database Server (SQL),IT,Faisal Al-Qahtani,False Positive,No,1.46
+ALT-00605,2026-06-26 16:43:11,2026-06-27 20:50:23,Low,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,10.0.1.244,10.0.25.103,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,28.12
+ALT-00606,2026-06-26 20:07:45,2026-06-26 22:50:21,High,Malicious Macro,Execution,Wireshark,67.56.94.65,10.0.9.121,Executive Laptop,Executive,Omar Al-Dosari,False Positive,No,2.71
+ALT-00607,2026-06-27 14:30:20,2026-06-28 22:15:20,Medium,DDoS Traffic,Impact,Wireshark,10.0.3.28,10.0.2.94,VPN Gateway,IT,Sara Alzahrani,Escalated,Yes,31.75
+ALT-00608,2026-06-27 14:30:31,2026-06-28 08:19:43,High,DDoS Traffic,Impact,Email Gateway,10.0.14.13,10.0.8.114,File Server,Operations,Omar Al-Dosari,Resolved,Yes,17.82
+ALT-00609,2026-06-27 16:31:40,2026-06-27 19:32:52,Critical,C2 Communication,Command and Control,Proxy Logs,40.70.77.60,10.0.12.179,Employee Workstation,Operations,Nouf Al-Harbi,Resolved,Yes,3.02
+ALT-00610,2026-06-27 18:05:50,2026-06-30 00:19:38,Low,Brute Force Login,Credential Access,Elastic SIEM,10.0.21.86,10.0.8.79,Employee Workstation,Operations,Sara Alzahrani,Resolved,Yes,54.23
+ALT-00611,2026-06-28 17:48:26,2026-06-29 17:09:26,Medium,C2 Communication,Command and Control,Email Gateway,178.51.173.167,10.0.30.174,File Server,Operations,Sara Alzahrani,Resolved,Yes,23.35
+ALT-00612,2026-06-28 18:23:11,2026-06-30 11:58:35,Low,Port Scan,Reconnaissance,Wireshark,89.211.113.191,10.0.21.254,Web Server 01,IT,Faisal Al-Qahtani,Resolved,Yes,41.59
+ALT-00613,2026-06-29 09:42:06,,Low,Data Exfiltration Attempt,Exfiltration,Firewall/IDS,207.121.53.231,10.0.28.46,Database Server (SQL),IT,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00614,2026-06-29 17:29:41,2026-06-30 08:17:05,High,Policy Violation,N/A,Elastic SIEM,104.182.65.172,10.0.20.62,File Server,Operations,Nouf Al-Harbi,Resolved,Yes,14.79
+ALT-00615,2026-06-30 09:44:10,2026-06-30 17:05:46,High,Phishing Email,Initial Access,EDR Agent,10.0.17.144,10.0.29.209,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,7.36
+ALT-00616,2026-06-30 10:20:48,2026-07-01 05:24:24,Low,Suspicious PowerShell,Execution,Proxy Logs,10.0.22.125,10.0.9.231,Email Gateway,IT,Nouf Al-Harbi,Resolved,Yes,19.06
+ALT-00617,2026-06-30 14:59:58,2026-07-01 00:22:10,Medium,Brute Force Login,Credential Access,Firewall/IDS,101.208.17.71,10.0.27.22,Domain Controller,IT,Faisal Al-Qahtani,Escalated,Yes,9.37
+ALT-00618,2026-07-01 12:27:56,2026-07-04 13:36:56,Low,Port Scan,Reconnaissance,Firewall/IDS,10.0.16.92,10.0.7.151,HR Portal,HR,Lama Al-Ghamdi,Resolved,Yes,73.15
+ALT-00619,2026-07-01 13:25:11,2026-07-01 18:25:47,Medium,Privilege Escalation,Privilege Escalation,Firewall/IDS,10.0.15.120,10.0.27.45,HR Portal,HR,Omar Al-Dosari,Resolved,Yes,5.01
+ALT-00620,2026-07-01 16:59:17,2026-07-03 14:59:17,Low,Policy Violation,N/A,Email Gateway,164.222.158.233,10.0.11.125,POS Terminal,Sales,Faisal Al-Qahtani,Resolved,Yes,46.0
+ALT-00621,2026-07-02 16:10:04,2026-07-02 18:11:52,Medium,Policy Violation,N/A,Firewall/IDS,117.94.9.159,10.0.27.95,Finance ERP App,Finance,Lama Al-Ghamdi,Resolved,Yes,2.03
+ALT-00622,2026-07-03 13:07:11,2026-07-05 01:53:59,Medium,Policy Violation,N/A,Proxy Logs,138.217.194.211,10.0.7.65,Web Server 01,IT,Faisal Al-Qahtani,Escalated,Yes,36.78
+ALT-00623,2026-07-03 13:40:29,,High,Privilege Escalation,Privilege Escalation,Elastic SIEM,10.0.1.77,10.0.13.194,File Server,Operations,Omar Al-Dosari,In Progress,Yes,
+ALT-00624,2026-07-03 15:55:23,2026-07-06 18:07:59,Low,Policy Violation,N/A,Email Gateway,10.0.28.133,10.0.4.214,POS Terminal,Sales,Sara Alzahrani,Resolved,Yes,74.21
+ALT-00625,2026-07-04 16:39:03,2026-07-05 07:18:03,Low,Suspicious PowerShell,Execution,Elastic SIEM,51.129.242.180,10.0.4.54,File Server,Operations,Sara Alzahrani,Resolved,Yes,14.65
+ALT-00626,2026-07-04 18:19:58,2026-07-08 17:04:58,Low,Port Scan,Reconnaissance,Elastic SIEM,52.150.31.95,10.0.28.142,HR Portal,HR,Lama Al-Ghamdi,Resolved,Yes,94.75
+ALT-00627,2026-07-05 18:30:04,2026-07-06 00:33:40,Critical,Unauthorized Access,Initial Access,EDR Agent,200.6.119.6,10.0.19.196,Executive Laptop,Executive,Omar Al-Dosari,Resolved,Yes,6.06
+ALT-00628,2026-07-05 20:16:48,2026-07-06 06:01:12,High,Privilege Escalation,Privilege Escalation,Proxy Logs,24.68.1.156,10.0.15.3,Domain Controller,IT,Nouf Al-Harbi,Resolved,Yes,9.74
+ALT-00629,2026-07-07 22:45:59,2026-07-08 03:35:11,High,Privilege Escalation,Privilege Escalation,Email Gateway,10.0.25.128,10.0.0.94,HR Portal,HR,Faisal Al-Qahtani,Resolved,Yes,4.82
+ALT-00630,2026-07-08 09:21:27,2026-07-10 09:04:03,Medium,Malicious Macro,Execution,Email Gateway,31.136.77.219,10.0.22.225,Employee Workstation,Operations,Faisal Al-Qahtani,Resolved,Yes,47.71
+ALT-00631,2026-07-08 09:43:35,2026-07-08 11:42:59,Critical,Malware Detected,Execution,Email Gateway,118.145.105.60,10.0.9.170,POS Terminal,Sales,Omar Al-Dosari,Resolved,Yes,1.99
+ALT-00632,2026-07-08 14:48:15,2026-07-08 16:26:39,Critical,Suspicious PowerShell,Execution,Firewall/IDS,10.0.1.62,10.0.29.187,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,1.64
+ALT-00633,2026-07-08 15:07:16,2026-07-09 12:05:28,Medium,Malicious Macro,Execution,Proxy Logs,10.0.17.4,10.0.22.215,Domain Controller,IT,Faisal Al-Qahtani,Escalated,Yes,20.97
+ALT-00634,2026-07-09 10:04:08,2026-07-10 15:32:56,Medium,Brute Force Login,Credential Access,Email Gateway,10.0.16.156,10.0.13.27,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,29.48
+ALT-00635,2026-07-09 10:59:34,,Low,DDoS Traffic,Impact,Proxy Logs,173.33.175.97,10.0.29.185,Employee Workstation,Operations,Nouf Al-Harbi,In Progress,Yes,
+ALT-00636,2026-07-09 12:14:30,2026-07-13 08:12:42,Low,Unauthorized Access,Initial Access,Wireshark,61.146.93.250,10.0.5.216,Email Gateway,IT,Nouf Al-Harbi,Resolved,Yes,91.97
+ALT-00637,2026-07-09 14:08:53,2026-07-11 08:03:29,Medium,Suspicious PowerShell,Execution,Wireshark,36.192.45.2,10.0.13.165,Web Server 01,IT,Nouf Al-Harbi,Resolved,Yes,41.91
+ALT-00638,2026-07-09 14:35:57,2026-07-10 22:27:33,Medium,Privilege Escalation,Privilege Escalation,Email Gateway,10.0.0.230,10.0.26.210,VPN Gateway,IT,Sara Alzahrani,Escalated,Yes,31.86
+ALT-00639,2026-07-10 02:32:15,2026-07-10 05:11:51,Medium,Brute Force Login,Credential Access,Email Gateway,82.242.208.49,10.0.3.26,Domain Controller,IT,Faisal Al-Qahtani,False Positive,No,2.66
+ALT-00640,2026-07-10 08:57:49,,Medium,DDoS Traffic,Impact,EDR Agent,129.117.246.203,10.0.24.99,Sales CRM,Sales,Nouf Al-Harbi,In Progress,Yes,
+ALT-00641,2026-07-10 11:03:06,2026-07-11 14:22:18,Medium,Port Scan,Reconnaissance,Elastic SIEM,124.243.244.167,10.0.6.195,Database Server (SQL),IT,Faisal Al-Qahtani,Resolved,Yes,27.32
+ALT-00642,2026-07-11 10:12:42,2026-07-11 21:58:18,High,Data Exfiltration Attempt,Exfiltration,Email Gateway,10.0.9.109,10.0.10.43,Database Server (SQL),IT,Nouf Al-Harbi,Escalated,Yes,11.76
+ALT-00643,2026-07-11 14:00:23,2026-07-12 08:09:23,High,C2 Communication,Command and Control,Proxy Logs,192.123.2.231,10.0.29.108,Finance ERP App,Finance,Nouf Al-Harbi,Resolved,Yes,18.15
+ALT-00644,2026-07-11 16:57:34,2026-07-12 08:37:46,High,Data Exfiltration Attempt,Exfiltration,Firewall/IDS,94.68.237.129,10.0.16.25,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,15.67
+ALT-00645,2026-07-12 08:35:25,2026-07-13 10:52:13,Medium,Unauthorized Access,Initial Access,Firewall/IDS,10.0.22.238,10.0.6.181,Database Server (SQL),IT,Omar Al-Dosari,Resolved,Yes,26.28
+ALT-00646,2026-07-12 11:15:47,2026-07-14 03:43:59,Medium,C2 Communication,Command and Control,Wireshark,10.0.24.29,10.0.3.237,Domain Controller,IT,Faisal Al-Qahtani,Escalated,Yes,40.47
+ALT-00647,2026-07-12 13:02:02,2026-07-13 13:05:02,Medium,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,45.231.253.62,10.0.2.144,Sales CRM,Sales,Omar Al-Dosari,Resolved,Yes,24.05
+ALT-00648,2026-07-12 14:35:31,2026-07-13 23:54:43,Low,Phishing Email,Initial Access,Proxy Logs,58.153.192.48,10.0.24.139,File Server,Operations,Omar Al-Dosari,Escalated,Yes,33.32
+ALT-00649,2026-07-12 18:28:23,2026-07-12 22:55:59,Critical,Malware Detected,Execution,Wireshark,10.0.2.249,10.0.4.154,POS Terminal,Sales,Omar Al-Dosari,Resolved,Yes,4.46
+ALT-00650,2026-07-13 16:29:45,2026-07-14 23:07:33,Low,Suspicious PowerShell,Execution,Wireshark,97.155.252.144,10.0.23.120,Web Server 01,IT,Faisal Al-Qahtani,Escalated,Yes,30.63
+ALT-00651,2026-07-13 23:41:23,2026-07-15 04:02:23,Medium,Phishing Email,Initial Access,Wireshark,10.0.17.244,10.0.2.80,Sales CRM,Sales,Sara Alzahrani,Resolved,Yes,28.35
+ALT-00652,2026-07-14 00:21:52,,Medium,Brute Force Login,Credential Access,Proxy Logs,10.0.9.251,10.0.23.115,Database Server (SQL),IT,Sara Alzahrani,In Progress,Yes,
+ALT-00653,2026-07-14 07:40:36,2026-07-18 06:03:24,Low,Malicious Macro,Execution,Firewall/IDS,10.0.28.248,10.0.2.212,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,94.38
+ALT-00654,2026-07-14 10:21:45,2026-07-15 20:46:57,Medium,Malware Detected,Execution,Elastic SIEM,10.0.3.218,10.0.16.222,HR Portal,HR,Sara Alzahrani,Resolved,Yes,34.42
+ALT-00655,2026-07-14 12:50:31,2026-07-17 00:18:07,Low,Malware Detected,Execution,Elastic SIEM,105.145.232.254,10.0.20.141,Finance ERP App,Finance,Sara Alzahrani,Resolved,Yes,59.46
+ALT-00656,2026-07-14 14:01:47,2026-07-14 19:25:11,Critical,Privilege Escalation,Privilege Escalation,Proxy Logs,10.0.6.139,10.0.26.64,Database Server (SQL),IT,Nouf Al-Harbi,Resolved,Yes,5.39
+ALT-00657,2026-07-14 15:43:06,2026-07-14 20:38:54,Critical,Unauthorized Access,Initial Access,Proxy Logs,102.78.14.21,10.0.14.214,File Server,Operations,Sara Alzahrani,Resolved,Yes,4.93
+ALT-00658,2026-07-14 23:05:27,2026-07-16 06:38:27,Low,Malicious Macro,Execution,Elastic SIEM,10.0.10.205,10.0.1.77,POS Terminal,Sales,Omar Al-Dosari,Resolved,Yes,31.55
+ALT-00659,2026-07-15 06:34:24,,High,Privilege Escalation,Privilege Escalation,EDR Agent,170.96.150.203,10.0.4.85,Executive Laptop,Executive,Faisal Al-Qahtani,In Progress,Yes,
+ALT-00660,2026-07-16 09:00:21,2026-07-16 20:36:57,Medium,Privilege Escalation,Privilege Escalation,EDR Agent,72.132.247.160,10.0.23.38,Finance ERP App,Finance,Omar Al-Dosari,Resolved,Yes,11.61
+ALT-00661,2026-07-16 18:09:33,2026-07-16 23:07:45,Medium,Brute Force Login,Credential Access,Wireshark,10.0.14.12,10.0.6.74,File Server,Operations,Nouf Al-Harbi,Resolved,Yes,4.97
+ALT-00662,2026-07-17 11:47:41,2026-07-19 16:02:05,Low,Suspicious PowerShell,Execution,Proxy Logs,10.0.18.40,10.0.10.130,File Server,Operations,Omar Al-Dosari,Resolved,Yes,52.24
+ALT-00663,2026-07-17 12:20:23,2026-07-18 04:43:11,Low,Port Scan,Reconnaissance,Email Gateway,90.168.211.135,10.0.6.180,VPN Gateway,IT,Sara Alzahrani,Resolved,Yes,16.38
+ALT-00664,2026-07-18 15:48:26,2026-07-20 03:35:14,Medium,Port Scan,Reconnaissance,Proxy Logs,10.0.20.69,10.0.24.211,Database Server (SQL),IT,Faisal Al-Qahtani,Resolved,Yes,35.78
+ALT-00665,2026-07-18 16:57:18,2026-07-18 23:42:18,High,Malicious Macro,Execution,Email Gateway,148.86.78.44,10.0.21.161,File Server,Operations,Nouf Al-Harbi,Resolved,Yes,6.75
+ALT-00666,2026-07-19 08:47:59,2026-07-22 22:26:59,Low,Policy Violation,N/A,EDR Agent,75.57.120.163,10.0.13.85,Finance ERP App,Finance,Nouf Al-Harbi,Resolved,Yes,85.65
+ALT-00667,2026-07-21 11:13:37,,Critical,Unauthorized Access,Initial Access,EDR Agent,140.146.4.217,10.0.3.112,Finance ERP App,Finance,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00668,2026-07-21 15:06:55,2026-07-23 13:31:31,Medium,Phishing Email,Initial Access,EDR Agent,10.0.27.124,10.0.3.212,Database Server (SQL),IT,Omar Al-Dosari,Resolved,Yes,46.41
+ALT-00669,2026-07-21 16:41:21,2026-07-22 00:08:57,Medium,Suspicious PowerShell,Execution,Proxy Logs,10.0.9.178,10.0.19.246,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,7.46
+ALT-00670,2026-07-21 16:46:18,2026-07-22 00:48:06,Low,Phishing Email,Initial Access,Email Gateway,69.164.42.243,10.0.3.44,HR Portal,HR,Lama Al-Ghamdi,Resolved,Yes,8.03
+ALT-00671,2026-07-22 08:18:47,2026-07-23 00:58:23,High,Data Exfiltration Attempt,Exfiltration,Wireshark,68.214.92.105,10.0.25.39,VPN Gateway,IT,Lama Al-Ghamdi,Resolved,Yes,16.66
+ALT-00672,2026-07-22 14:52:10,2026-07-23 05:15:34,High,Malware Detected,Execution,Proxy Logs,50.108.233.122,10.0.1.193,Database Server (SQL),IT,Omar Al-Dosari,Resolved,Yes,14.39
+ALT-00673,2026-07-22 17:12:53,2026-07-22 22:38:05,High,Data Exfiltration Attempt,Exfiltration,EDR Agent,10.0.16.124,10.0.0.86,Web Server 01,IT,Sara Alzahrani,Resolved,Yes,5.42
+ALT-00674,2026-07-23 13:53:56,2026-07-25 02:11:56,Medium,Malware Detected,Execution,EDR Agent,183.140.77.200,10.0.6.29,HR Portal,HR,Omar Al-Dosari,Resolved,Yes,36.3
+ALT-00675,2026-07-24 00:38:20,2026-07-24 07:43:44,Critical,Data Exfiltration Attempt,Exfiltration,Firewall/IDS,41.248.35.251,10.0.24.138,HR Portal,HR,Faisal Al-Qahtani,Resolved,Yes,7.09
+ALT-00676,2026-07-25 15:41:16,,High,Privilege Escalation,Privilege Escalation,Email Gateway,55.55.122.63,10.0.1.173,Domain Controller,IT,Nouf Al-Harbi,In Progress,Yes,
+ALT-00677,2026-07-25 21:42:56,2026-07-27 09:30:20,Medium,Malicious Macro,Execution,Wireshark,153.128.254.227,10.0.2.62,POS Terminal,Sales,Faisal Al-Qahtani,Resolved,Yes,35.79
+ALT-00678,2026-07-26 10:39:58,2026-07-28 16:38:46,Low,Brute Force Login,Credential Access,Email Gateway,95.27.201.33,10.0.12.173,Executive Laptop,Executive,Nouf Al-Harbi,Resolved,Yes,53.98
+ALT-00679,2026-07-27 12:00:29,,Medium,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,10.0.18.170,10.0.15.118,Sales CRM,Sales,Lama Al-Ghamdi,In Progress,Yes,
+ALT-00680,2026-07-27 18:34:51,2026-07-28 18:09:03,Medium,Suspicious PowerShell,Execution,Firewall/IDS,140.169.215.91,10.0.30.252,Email Gateway,IT,Lama Al-Ghamdi,Escalated,Yes,23.57
+ALT-00681,2026-07-28 16:23:44,2026-07-28 22:27:56,Critical,Malicious Macro,Execution,EDR Agent,85.100.96.31,10.0.29.220,Web Server 01,IT,Faisal Al-Qahtani,Escalated,Yes,6.07
+ALT-00682,2026-07-28 18:03:58,,Medium,Malicious Macro,Execution,Email Gateway,10.0.28.216,10.0.5.241,Domain Controller,IT,Sara Alzahrani,In Progress,Yes,
+ALT-00683,2026-07-29 13:09:52,,Critical,Privilege Escalation,Privilege Escalation,Wireshark,144.200.153.253,10.0.26.170,POS Terminal,Sales,Sara Alzahrani,In Progress,Yes,
+ALT-00684,2026-07-29 17:29:53,2026-07-30 22:35:17,Medium,Privilege Escalation,Privilege Escalation,EDR Agent,121.158.173.57,10.0.10.201,Employee Workstation,Operations,Sara Alzahrani,Resolved,Yes,29.09
+ALT-00685,2026-07-29 23:43:25,2026-07-30 22:38:37,Medium,Policy Violation,N/A,Elastic SIEM,192.134.195.211,10.0.20.242,VPN Gateway,IT,Nouf Al-Harbi,Resolved,Yes,22.92
+ALT-00686,2026-07-30 14:05:42,2026-07-30 19:43:30,High,C2 Communication,Command and Control,Elastic SIEM,10.0.18.54,10.0.2.214,Executive Laptop,Executive,Sara Alzahrani,Escalated,Yes,5.63
+ALT-00687,2026-07-30 15:56:24,2026-07-30 18:01:48,Medium,Unauthorized Access,Initial Access,EDR Agent,10.0.2.206,10.0.27.10,Employee Workstation,Operations,Lama Al-Ghamdi,False Positive,No,2.09
+ALT-00688,2026-07-30 16:52:22,2026-07-30 18:06:46,Low,Malicious Macro,Execution,Wireshark,10.0.12.105,10.0.12.113,Email Gateway,IT,Omar Al-Dosari,False Positive,No,1.24
+ALT-00689,2026-07-31 12:21:39,2026-07-31 19:22:51,High,Privilege Escalation,Privilege Escalation,Firewall/IDS,144.18.35.61,10.0.20.177,Employee Workstation,Operations,Lama Al-Ghamdi,Resolved,Yes,7.02
+ALT-00690,2026-07-31 16:00:40,2026-07-31 20:55:16,High,Malicious Macro,Execution,Wireshark,209.222.36.192,10.0.21.41,File Server,Operations,Omar Al-Dosari,Escalated,Yes,4.91
+ALT-00691,2026-08-01 13:25:37,2026-08-03 09:40:37,Low,DDoS Traffic,Impact,Proxy Logs,81.29.125.23,10.0.29.113,File Server,Operations,Sara Alzahrani,Resolved,Yes,44.25
+ALT-00692,2026-08-01 18:43:45,2026-08-03 17:48:33,Low,Malware Detected,Execution,Proxy Logs,10.0.25.124,10.0.9.40,Sales CRM,Sales,Lama Al-Ghamdi,Resolved,Yes,47.08
+ALT-00693,2026-08-02 05:43:48,2026-08-02 19:07:12,Medium,Phishing Email,Initial Access,Email Gateway,10.0.26.6,10.0.18.176,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,13.39
+ALT-00694,2026-08-02 14:49:28,2026-08-02 15:11:40,Medium,C2 Communication,Command and Control,Wireshark,73.242.199.175,10.0.30.81,Email Gateway,IT,Omar Al-Dosari,False Positive,No,0.37
+ALT-00695,2026-08-02 16:12:49,2026-08-02 19:04:25,Medium,Port Scan,Reconnaissance,EDR Agent,46.75.236.225,10.0.3.192,Finance ERP App,Finance,Faisal Al-Qahtani,False Positive,No,2.86
+ALT-00696,2026-08-03 12:06:53,2026-08-03 23:15:53,High,C2 Communication,Command and Control,Wireshark,10.0.1.143,10.0.9.180,HR Portal,HR,Nouf Al-Harbi,Resolved,Yes,11.15
+ALT-00697,2026-08-03 15:34:10,2026-08-03 18:25:10,Medium,Policy Violation,N/A,EDR Agent,59.2.169.166,10.0.22.77,Email Gateway,IT,Omar Al-Dosari,False Positive,No,2.85
+ALT-00698,2026-08-03 17:32:24,,High,Data Exfiltration Attempt,Exfiltration,Elastic SIEM,68.164.243.129,10.0.4.247,POS Terminal,Sales,Omar Al-Dosari,In Progress,Yes,
+ALT-00699,2026-08-03 18:27:51,2026-08-03 23:36:51,Critical,Malware Detected,Execution,Email Gateway,10.0.11.70,10.0.25.103,Employee Workstation,Operations,Faisal Al-Qahtani,Resolved,Yes,5.15
+ALT-00700,2026-08-05 10:32:34,2026-08-05 22:36:46,High,Privilege Escalation,Privilege Escalation,Elastic SIEM,201.213.146.225,10.0.27.110,POS Terminal,Sales,Nouf Al-Harbi,Resolved,Yes,12.07
+ALT-00701,2026-08-06 11:44:45,2026-08-06 23:38:45,High,Data Exfiltration Attempt,Exfiltration,Email Gateway,121.176.74.75,10.0.1.75,HR Portal,HR,Nouf Al-Harbi,Resolved,Yes,11.9
+ALT-00702,2026-08-07 12:53:15,2026-08-07 21:02:15,Low,Policy Violation,N/A,Elastic SIEM,10.0.13.107,10.0.3.120,Executive Laptop,Executive,Lama Al-Ghamdi,Resolved,Yes,8.15
+ALT-00703,2026-08-09 08:58:07,,Low,Port Scan,Reconnaissance,Wireshark,204.178.250.163,10.0.22.96,Web Server 01,IT,Omar Al-Dosari,In Progress,Yes,
+ALT-00704,2026-08-09 08:59:51,2026-08-09 15:06:27,Low,Unauthorized Access,Initial Access,Wireshark,128.138.129.163,10.0.5.23,Database Server (SQL),IT,Sara Alzahrani,Resolved,Yes,6.11
+ALT-00705,2026-08-09 09:08:53,2026-08-09 10:27:29,High,Port Scan,Reconnaissance,Email Gateway,126.154.140.82,10.0.24.90,Sales CRM,Sales,Sara Alzahrani,Resolved,Yes,1.31
+ALT-00706,2026-08-10 09:22:01,2026-08-10 12:07:01,Medium,Policy Violation,N/A,EDR Agent,10.0.0.52,10.0.6.74,Finance ERP App,Finance,Faisal Al-Qahtani,False Positive,No,2.75
+ALT-00707,2026-08-11 16:32:10,2026-08-13 04:20:10,Medium,Malware Detected,Execution,Firewall/IDS,85.249.129.94,10.0.14.5,Employee Workstation,Operations,Nouf Al-Harbi,Resolved,Yes,35.8
+ALT-00708,2026-08-12 08:38:15,2026-08-12 15:53:51,High,Malicious Macro,Execution,Elastic SIEM,10.0.29.87,10.0.24.71,Sales CRM,Sales,Lama Al-Ghamdi,Resolved,Yes,7.26
+ALT-00709,2026-08-12 10:56:41,2026-08-12 19:00:53,High,Brute Force Login,Credential Access,Elastic SIEM,62.26.202.161,10.0.9.187,Finance ERP App,Finance,Nouf Al-Harbi,Resolved,Yes,8.07
+ALT-00710,2026-08-12 13:26:48,2026-08-13 16:32:48,Medium,DDoS Traffic,Impact,Firewall/IDS,10.0.17.239,10.0.23.67,POS Terminal,Sales,Lama Al-Ghamdi,Resolved,Yes,27.1
+ALT-00711,2026-08-13 13:35:24,2026-08-14 20:03:00,Medium,Port Scan,Reconnaissance,Proxy Logs,202.37.42.69,10.0.4.99,Executive Laptop,Executive,Omar Al-Dosari,Resolved,Yes,30.46
+ALT-00712,2026-08-14 02:59:30,2026-08-14 20:55:54,High,Phishing Email,Initial Access,Wireshark,116.192.41.175,10.0.30.171,Web Server 01,IT,Omar Al-Dosari,Resolved,Yes,17.94
+ALT-00713,2026-08-14 13:37:30,,Medium,Suspicious PowerShell,Execution,Proxy Logs,115.8.132.42,10.0.18.16,Finance ERP App,Finance,Omar Al-Dosari,In Progress,Yes,
+ALT-00714,2026-08-15 09:32:49,2026-08-16 08:48:25,Medium,Unauthorized Access,Initial Access,Firewall/IDS,10.0.22.174,10.0.23.120,Web Server 01,IT,Faisal Al-Qahtani,Resolved,Yes,23.26
+ALT-00715,2026-08-15 10:39:36,2026-08-16 04:27:00,High,Data Exfiltration Attempt,Exfiltration,EDR Agent,10.0.9.252,10.0.6.2,File Server,Operations,Omar Al-Dosari,Escalated,Yes,17.79
+ALT-00716,2026-08-16 15:12:07,,Medium,Malware Detected,Execution,Wireshark,101.177.33.141,10.0.17.76,Database Server (SQL),IT,Omar Al-Dosari,In Progress,Yes,
+ALT-00717,2026-08-16 17:58:05,2026-08-17 07:04:05,High,Brute Force Login,Credential Access,Firewall/IDS,45.133.154.153,10.0.9.46,Database Server (SQL),IT,Faisal Al-Qahtani,Escalated,Yes,13.1
+ALT-00718,2026-08-17 09:02:58,2026-08-18 21:26:58,Medium,C2 Communication,Command and Control,EDR Agent,149.68.201.20,10.0.18.147,Sales CRM,Sales,Nouf Al-Harbi,Resolved,Yes,36.4
+ALT-00719,2026-08-17 11:04:17,2026-08-17 12:24:05,Medium,Port Scan,Reconnaissance,Elastic SIEM,10.0.10.90,10.0.19.169,Executive Laptop,Executive,Sara Alzahrani,False Positive,No,1.33
+ALT-00720,2026-08-19 22:07:25,2026-08-20 00:23:37,Medium,Phishing Email,Initial Access,Elastic SIEM,10.0.23.171,10.0.30.237,POS Terminal,Sales,Omar Al-Dosari,False Positive,No,2.27
