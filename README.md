@@ -4,8 +4,8 @@
 
 هذا الملف دليل بناء كامل خطوة بخطوة، ومعه ملف `security_alerts_dataset.csv` (720 تنبيه أمني محاكى، من يناير إلى أغسطس 2026).
 
-![Executive Overview](screenshots/executive-overview.png)
-![Deep Dive](screenshots/deep-dive.png)
+![Executive Overview](Executive%20Overview.png)
+![Deep Dive](Deep%20Dive.png)
 
 ---
 
